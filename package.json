@@ -1,0 +1,24 @@
+{
+  "name": "cemeteryfuneralpreplan",
+  "version": "1.0.0",
+  "description": "My cool Nuxt.js project",
+  "author": "Mooc",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0",
+    "nuxt": "^2.0.0",
+    "nuxt-i18n": "^6.15.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2"
+  }
+}

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$green:#3F8C7B;
+$darkgreen:#2A5655;
+$lightgreen:#C0D8C5;
+$lightgrey:#F5F3F1;
+
+body{
+    background:$lightgrey;
+    font-family: 'Unna', serif;
+}
+
+section{
+    padding-top: 80px;
+    padding-bottom:80px;
+}
+.container-fluid{
+    padding-left:0;
+    padding-right: 0;
+}
+
+.bg-nav{
+    background-color:$darkgreen;
+}
+.navbar-dark{
+.navbar-brand{
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    color:$lightgrey;
+}
+.navbar-nav .nav-link {
+    color:$lightgrey;
+}
+}
+
+.top-banner{
+    background-image:url('/img/HighlandMemory-005.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    background-color:#727272;
+    background-blend-mode: multiply;
+    background-position: center;
+    width: 100%;
+
+    .text-area{
+        margin:auto;
+        display: block;
+        position: relative;
+        padding-top:15%;
+
+    h1{
+        text-align: center;
+        color:$lightgrey;
+        font-weight: 700;
+        font-size: 45px;
+    }
+}
+}
+
+.general-btn{
+    border:1px solid $lightgrey;
+    border-radius:10px;
+    padding:15px 20px;
+    color:$lightgrey;
+    transition: 0.5s;
+    position: relative;
+    margin:auto;
+    margin-top: 30px;
+    display: block;
+    width: 200px;
+    text-align: center;
+}
+
+.general-btn:hover{
+    background-color:$darkgreen;
+    color:#ffffff;
+    transition: 0.5s;
+}
+
+a:hover{
+    text-decoration: none;
+    color:inherit;
+}
+
+.pointer{
+
+    h2{
+        font-weight:700;
+        color: $darkgreen;
+        font-style: italic;
+    }
+
+}
+
+.agency{
+    border:1px solid $lightgreen;
+    width: 100%;
+    padding-top: 30px;
+
+    .info-pad{
+        background:$darkgreen;
+        color:$lightgrey;
+        padding: 15px;
+        height:auto;
+        h3{
+            font-weight: 700;
+            text-align: center;
+        }
+
+        a{
+            color:$lightgrey;
+            padding: 10px;
+            text-align: center;
+
+        }
+        .icon{
+            padding-right: 3px;
+        }
+    }
+}
+
+
+.this-footer{
+    background-color: #2A5655;
+    padding: 15px;
+}
+
+.green-btn{
+    background-color: $darkgreen;
+    border:1px solid $darkgreen;
+    color:$lightgrey;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    display: block;
+    border-radius: 5px;
+}
+
+.main-form{
+    border-top: 5px solid $darkgreen;
+    background:#ffffff;
+    padding: 25px 30px;
+    box-shadow: -1px 17px 31px -23px rgba(0,0,0,0.75);
+
+    .sub-btn{
+        background:$darkgreen;
+        border:1px solid $darkgreen;
+        font-weight: 700;
+        width: 100%;
+    }
+}
