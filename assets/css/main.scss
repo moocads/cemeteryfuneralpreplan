@@ -160,6 +160,24 @@ h2{
     }
 }
 
+.form-sec{
+    background-image:url('/img/flower-bw.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    // background-color:rgb(75, 75, 75);
+    background-color: $darkgreen;
+    background-attachment: fixed;
+
+    h2{
+        color:$green;
+    }
+
+    p{
+        color: $lightgrey;
+    }
+  }
+
 .service-img{
     background-repeat: no-repeat;
     width: 100%;

@@ -85,13 +85,16 @@
     </b-row>
     </b-container>
     </section>
-    <section class="">
+    <section class="form-sec">
       <b-container>
         <b-row>
           <b-col cols="12" md="6" sm="12">
             <Form/>
           </b-col>
-           <b-col cols="12" md="6" sm="12">
+            <b-col cols="12" md="1" sm="12"></b-col>
+           <b-col cols="12" md="5" sm="12">
+             <h2>Lorem ipsum dolor </h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla culpa velit accusamus quidem perferendis doloremque minima quis fugiat totam. Ipsam nesciunt et qui doloremque iure nisi inventore. Assumenda, sint nulla!</p>
           </b-col>
         </b-row>
       </b-container>
@@ -153,4 +156,6 @@ export default {
   .ser-1{
     background-image: url('/img/outside-01.jpeg');
   }
+
+
 </style>
