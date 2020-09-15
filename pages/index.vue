@@ -6,31 +6,46 @@
     "about":"about",
     "contact":"Contact Now",
     "ser":"Our Services",
-            "ser01":"土葬服务",
-        "ser02":"骨灰土葬服务",
-        "ser03":"室外骨灰位",
-        "ser04":"室内骨灰位",
-        "ser05":"殡仪及火化服务"
+    "ser01":"土葬服务",
+    "ser02":"骨灰土葬服务",
+    "ser03":"室外骨灰位",
+    "ser04":"室内骨灰位",
+    "ser05":"殡仪及火化服务",
+    "area":"Service Area",
+    "area-01":"Highland Memory Garden",
+    "area-02":"Highland Hill Memory Garden",
+    "area-03":"Pine Ridge Memory Garden",
+    "area-04":"Glen Oaks Memory Garden"
   },
   "zh":{
     "slogan":"专业一站式服务<br>令您及家人安枕无忧",
     "contact":"联系我们",
     "ser":"我们的服务",
-                "ser01":"土葬服务",
-        "ser02":"骨灰土葬服务",
-        "ser03":"室外骨灰位",
-        "ser04":"室内骨灰位",
-        "ser05":"殡仪及火化服务"
+    "ser01":"土葬服务",
+    "ser02":"骨灰土葬服务",
+    "ser03":"室外骨灰位",
+    "ser04":"室内骨灰位",
+    "ser05":"殡仪及火化服务",
+    "area":"服务区域",
+    "area-01":"高山纪念墓园<br>(大多地区)",
+    "area-02":"好景殡仪馆和墓园 <br>(大多地区)",
+    "area-03":"松柏纪念园<br>(大多地区)",
+    "area-04":"嘉丽殡仪馆和墓园 <br>(密西沙加地区)"
   },
   "tc":{
     "slogan":"专业一站式服务<br>令您及家人安枕无忧",
     "contact":"联系我们",
     "ser":"我们的服务",
-                "ser01":"土葬服务",
-        "ser02":"骨灰土葬服务",
-        "ser03":"室外骨灰位",
-        "ser04":"室内骨灰位",
-        "ser05":"殡仪及火化服务"
+    "ser01":"土葬服务",
+    "ser02":"骨灰土葬服务",
+    "ser03":"室外骨灰位",
+    "ser04":"室内骨灰位",
+    "ser05":"殯儀火葬服務",
+    "area":"服务区域",
+    "area-01":"高山紀念墓園<br>(大多地區)",
+    "area-02":"好景殯儀館和墓園 <br>(大多地區)",
+    "area-03":"松柏紀念園<br>(大多地區)",
+    "area-04":"嘉麗殯儀館和墓園 <br>(密西沙加地區)"
   }
 }
 </i18n>
@@ -93,8 +108,8 @@
           </b-col>
             <b-col cols="12" md="1" sm="12"></b-col>
            <b-col cols="12" md="5" sm="12">
-             <h2>Lorem ipsum dolor </h2>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla culpa velit accusamus quidem perferendis doloremque minima quis fugiat totam. Ipsam nesciunt et qui doloremque iure nisi inventore. Assumenda, sint nulla!</p>
+             <h2>Arbor 公司历史 </h2>
+             <p>Arbor公司自1947年提供专业目的，殡葬及火化服务，为加拿大成千上万家庭提供一站式服务。Arbor是加国最大墓园公司，业务遍布各省，超过90间殡仪馆，40个幽美墓园及20间火化场。致力于提供全面贴心服务，协助有需要的家庭妥善安排一系列繁琐事项。在有需要的时刻，我们陪伴你渡过。</p>
           </b-col>
         </b-row>
       </b-container>
@@ -136,6 +151,38 @@
         </b-row>
       </b-container>
     </section>
+    <section id="servicearea">
+      <b-container>
+        <b-row>
+          <b-col>
+            <h2>{{$t('area')}}</h2>
+            <hr>
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col>
+              <h3 v-html="$t('area-01')"></h3>
+              <nuxt-link to="/">33 Memory Gardens Ln, <br>North York, ON</nuxt-link>
+              <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
+          </b-col>
+             <b-col>
+              <h3 v-html="$t('area-02')"></h3>
+              <nuxt-link to="/">12492 Woodbine Ave, <br>Gormley, ON</nuxt-link>
+                <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
+          </b-col>
+             <b-col>
+              <h3 v-html="$t('area-03')"></h3>
+              <nuxt-link to="/"> 541 Taunton Rd W, <br>Ajax, ON</nuxt-link>
+                <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
+          </b-col>
+             <b-col>
+              <h3 v-html="$t('area-04')"></h3>
+              <nuxt-link to="/">3164 Ninth Line,<br> Oakville, ON</nuxt-link>
+                <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
     <Footer/>
   </b-container>
 </template>
@@ -155,6 +202,16 @@ export default {
 <style lang="scss" scoped>
   .ser-1{
     background-image: url('/img/outside-01.jpeg');
+  }
+    .ser-2{
+      background-image: url('/img/soil.jpeg');
+  }
+  .ser-4{
+      background-image: url('/img/indoor-01.jpeg');
+  }
+
+  .ser-5{
+       background-image: url('/img/fire.jpeg');
   }
 
 

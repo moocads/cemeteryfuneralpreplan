@@ -206,3 +206,35 @@ h2{
         opacity: 0;
     }
 }
+
+
+#servicearea{
+    h3{
+        color:$darkgreen;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    a{
+        color:#000000;
+    }
+
+    .direction-btn{
+        background:$lightgreen;
+        padding:5px 10px;
+        color:$darkgreen;
+        text-align: center;
+        width: 100%;
+        display: block;
+        border-radius: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .direction-btn:hover{
+        background:$green;
+        color:$lightgrey;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+}
