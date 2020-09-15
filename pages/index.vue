@@ -4,15 +4,33 @@
     "slogan":"专业一站式服务<br>令您及家人安枕无忧",
     "intro":"安省持牌墓园及殡葬顾问",
     "about":"about",
-    "contact":"Contact Now"
+    "contact":"Contact Now",
+    "ser":"Our Services",
+            "ser01":"土葬服务",
+        "ser02":"骨灰土葬服务",
+        "ser03":"室外骨灰位",
+        "ser04":"室内骨灰位",
+        "ser05":"殡仪及火化服务"
   },
   "zh":{
     "slogan":"专业一站式服务<br>令您及家人安枕无忧",
-    "contact":"联系我们"
+    "contact":"联系我们",
+    "ser":"我们的服务",
+                "ser01":"土葬服务",
+        "ser02":"骨灰土葬服务",
+        "ser03":"室外骨灰位",
+        "ser04":"室内骨灰位",
+        "ser05":"殡仪及火化服务"
   },
   "tc":{
     "slogan":"专业一站式服务<br>令您及家人安枕无忧",
-    "contact":"联系我们"
+    "contact":"联系我们",
+    "ser":"我们的服务",
+                "ser01":"土葬服务",
+        "ser02":"骨灰土葬服务",
+        "ser03":"室外骨灰位",
+        "ser04":"室内骨灰位",
+        "ser05":"殡仪及火化服务"
   }
 }
 </i18n>
@@ -70,10 +88,47 @@
     <section class="">
       <b-container>
         <b-row>
-          <b-col>
+          <b-col cols="12" md="6" sm="12">
             <Form/>
           </b-col>
+           <b-col cols="12" md="6" sm="12">
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
+    <section>
+      <b-container>
+        <b-row>
           <b-col>
+            <h2>{{$t('ser')}}</h2>
+            <hr>
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col cols="12" md="4" sm="12">
+            <div class="service-img ser-1">
+              <h3>{{$t('ser01')}}</h3>
+            </div>
+          </b-col>
+                    <b-col cols="12" md="4" sm="12">
+            <div class="service-img ser-2">
+              <h3>{{$t('ser02')}}</h3>
+            </div>
+          </b-col>
+                    <b-col cols="12" md="4" sm="12">
+            <div class="service-img ser-3">
+              <h3>{{$t('ser03')}}</h3>
+            </div>
+          </b-col>
+                    <b-col cols="12" md="4" sm="12">
+            <div class="service-img ser-4">
+              <h3>{{$t('ser04')}}</h3>
+            </div>
+          </b-col>
+                    <b-col cols="12" md="4" sm="12">
+            <div class="service-img ser-5">
+              <h3>{{$t('ser05')}}</h3>
+            </div>
           </b-col>
         </b-row>
       </b-container>
@@ -94,6 +149,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+  .ser-1{
+    background-image: url('/img/outside-01.jpeg');
+  }
 </style>

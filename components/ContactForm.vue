@@ -10,7 +10,8 @@
         "ser02":"骨灰土葬服务",
         "ser03":"室外骨灰位",
         "ser04":"室内骨灰位",
-        "ser05":"殡仪及火化服务"
+        "ser05":"殡仪及火化服务",
+        "note":"Thank you! We will reply you as soon as possible."
     },
     "zh":{
         "email":"Email",
@@ -22,7 +23,8 @@
         "ser02":"骨灰土葬服务",
         "ser03":"室外骨灰位",
         "ser04":"室内骨灰位",
-        "ser05":"殡仪及火化服务"
+        "ser05":"殡仪及火化服务",
+        "note":"Thank you! We will reply you as soon as possible."
     },
     "tc":{
         "email":"Email",
@@ -34,15 +36,18 @@
         "ser02":"骨灰土葬服务",
         "ser03":"室外骨灰位",
         "ser04":"室内骨灰位",
-        "ser05":"殡仪及火化服务"
+        "ser05":"殡仪及火化服务",
+        "note":"Thank you! We will reply you as soon as possible."
     }
 }
 </i18n>
 <template>
   <div class="main-form">
+           <div class="note">{{$t('note')}}</div>
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
               <b-row>
           <b-col>
+         
                 <b-form-group id="input-group-2" :label="$t('firstn')" label-for="input-2">
         <b-form-input
           id="input-2"

@@ -84,14 +84,10 @@ a:hover{
     color:inherit;
 }
 
-.pointer{
-
-    h2{
-        font-weight:700;
-        color: $darkgreen;
-        font-style: italic;
-    }
-
+h2{
+    font-weight:700;
+    color: $darkgreen;
+    font-style: italic;
 }
 
 .agency{
@@ -149,5 +145,46 @@ a:hover{
         border:1px solid $darkgreen;
         font-weight: 700;
         width: 100%;
+    }
+
+    .note{
+        width: 100%;
+        background:$darkgreen;
+        padding: 10px 15px; 
+        color:#ffffff;
+        display: block;
+        position: relative;
+        margin-bottom:30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+}
+
+.service-img{
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: #adadad;
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 200px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: background-color 0.3s;
+
+    h3{
+        padding-top: 25%;
+        color:#ffffff;
+    }
+}
+
+
+.service-img:hover{
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+
+    h3{
+        opacity: 0;
     }
 }
