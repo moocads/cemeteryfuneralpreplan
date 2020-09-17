@@ -13,6 +13,9 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script:[
+      {src:'https://js.createsend1.com/javascript/copypastesubscribeformlogic.js', type:'text/javascript'}
     ]
   },
   /*
@@ -29,6 +32,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    {src:'@/plugins/smoothscroll.js', ssr:false},
+    { src: "@/plugins/aos", ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
