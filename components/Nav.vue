@@ -3,23 +3,23 @@
   "en":{
     "name":"Pre-Plan Cemetery & Funeral",
       "about":"About Us",
-      "cf":"Cemetery & Funeral",
+      "cf":"Our Services",
       "area":"Service Area",
-      "contact":"Contact"
+      "contact":"Contact Us"
   },
   "zh":{
     "name":"预置墓园及殡葬服务",
       "about":"关于我们",
-       "cf":"Cemetery&Funeral",
+       "cf":"我们的服务",
        "area":"服务地区",
        "contact":"联系我们"
       },
   "tc":{
     "name":"預置墓園及殯葬服務",
-      "about":"关于我们",
-       "cf":"Cemetery&Funeral",
-       "area":"服务地区",
-       "contact":"联系我们"
+      "about":"關於我們",
+       "cf":"我們的服務",
+       "area":"服務地區",
+       "contact":"聯絡我們"
   }
 }
 </i18n>
@@ -36,7 +36,7 @@
     </div>
   <b-navbar toggleable="lg" type="dark" variant="nav">
 
-    <b-navbar-brand> 预置墓园及殡葬服务</b-navbar-brand>
+    <b-navbar-brand> {{$t('name')}}</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 

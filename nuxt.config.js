@@ -33,7 +33,8 @@ export default {
   */
   plugins: [
     {src:'@/plugins/smoothscroll.js', ssr:false},
-    { src: "@/plugins/aos", ssr: false }
+    { src: "@/plugins/aos", ssr: false },
+    { src: "@/plugins/antcomponent.js", ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -64,7 +65,7 @@ export default {
             name: 'ZH'
           }
         ],
-        defaultLocale: 'en',
+        defaultLocale: 'zh',
         seo:true,
         detectBrowserLanguage: {
           useCookie: true,

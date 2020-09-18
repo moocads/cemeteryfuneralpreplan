@@ -118,11 +118,11 @@ section{
     text-align: center;
 }
 
-// .general-btn:hover{
-//     background-color:$darkgreen;
-//     color:#ffffff;
-//     transition: 0.5s;
-// }
+.general-btn:hover{
+    background-color:$darkgreen;
+    color:#ffffff;
+    transition: 0.5s;
+}
 
 a:hover{
     text-decoration: none;
@@ -185,6 +185,11 @@ h2{
     display: block;
     border-radius: 5px;
 }
+
+.green-btn:hover{
+    color:$lightgrey;
+}
+
 
 #faq{
     background-color:$green;

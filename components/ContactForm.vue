@@ -12,6 +12,7 @@
   "ser03":"室外骨灰位",
   "ser04":"室内骨灰位",
   "ser05":"殡仪及火化服务",
+  "ser06":"Other",
   "note":"Thank you! We will reply you as soon as possible."
   },
   "zh":{
@@ -26,6 +27,7 @@
   "ser03":"室外骨灰位",
   "ser04":"室内骨灰位",
   "ser05":"殡仪及火化服务",
+  "ser06":"其他服务",
   "note":"Thank you! We will reply you as soon as possible."
   },
   "tc":{
@@ -34,12 +36,13 @@
   "firstn":"First Name",
   "lastn":"Last Name",
   "ser":"我们的服务",
-    "select":"请选择以下服务",
+  "select":"请选择以下服务",
   "ser01":"土葬服务",
   "ser02":"骨灰土葬服务",
   "ser03":"室外骨灰位",
   "ser04":"室内骨灰位",
   "ser05":"殡仪及火化服务",
+  "ser06":"其他服务",
   "note":"Thank you! We will reply you as soon as possible."
   }
   }
@@ -53,28 +56,42 @@
       <b-row>
         <b-col>
 
-          <b-form-group id="input-group-2" :label="$t('firstn')" label-for="input-2">
-            <b-form-input id="fieldjyulihu" maxlength="200" name="cm-f-jyulihu" required placeholder="Enter name">
+          <b-form-group id="input-group-2"  class="mandatory">
+              <template v-slot:label>
+    {{$t('firstn')}}<span class="text-danger">*</span>
+  </template>
+            <b-form-input id="fieldjyulihu" maxlength="200" name="cm-f-jyulihu" required placeholder="Enter first name">
             </b-form-input>
           </b-form-group>
         </b-col>
         <b-col>
-          <b-form-group id="input-group-2" :label="$t('lastn')" label-for="input-2">
-            <b-form-input  id="fieldjyuliku" maxlength="200" name="cm-f-jyuliku" required placeholder="Enter name"></b-form-input>
+          <b-form-group id="input-group-2">
+                          <template v-slot:label>
+    {{$t('lastn')}}<span class="text-danger">*</span>
+  </template>
+            <b-form-input  id="fieldjyuliku" maxlength="200" name="cm-f-jyuliku" required placeholder="Enter last name"></b-form-input>
           </b-form-group>
         </b-col>
       </b-row>
-      <b-form-group id="input-group-1" :label="$t('email')" label-for="input-1"
-        description="We'll never share your email with anyone else.">
+      <b-form-group id="input-group-1" description="We'll never share your email with anyone else.">
+                                  <template v-slot:label>
+    {{$t('email')}}<span class="text-danger">*</span>
+  </template>
         <b-form-input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-ykyhkki-ykyhkki" type="email" required placeholder="Enter email"></b-form-input>
       </b-form-group>
 
-      <b-form-group id="input-group-2" :label="$t('phone')" label-for="input-2">
+      <b-form-group id="input-group-2">
+                                          <template v-slot:label>
+    {{$t('phone')}}<span class="text-danger">*</span>
+  </template>
         <b-form-input id="fieldjyuliul" maxlength="200" name="cm-f-jyuliul" required placeholder="Phone number"></b-form-input>
       </b-form-group>
 
 
-      <b-form-group :label="$t('ser')" id="fieldjyuldrl" name="cm-fo-jyuldrl" value="" label-for="input-3">
+      <b-form-group id="fieldjyuldrl" name="cm-fo-jyuldrl" value="">
+                                                  <template v-slot:label>
+    {{$t('ser')}}<span class="text-danger">*</span>
+  </template>
         <b-form-select id="input-3" required>
           <option value="">{{$t('select')}}</option>
           <option value="2938613">{{$t('ser01')}}</option>
@@ -82,6 +99,7 @@
           <option value="2938615">{{$t('ser03')}}</option>
           <option value="2938616">{{$t('ser04')}}</option>
           <option value="2938617">{{$t('ser05')}}</option>
+          <option value="other">{{$t('ser06')}}</option>
         </b-form-select>
       </b-form-group>
       <b-form-textarea id="fieldjyuldrr" maxlength="200" name="cm-f-jyuldrr" placeholder="Send us your message ..." rows="3" max-rows="6">
@@ -112,4 +130,11 @@
 
 <style lang="scss" scoped>
 
+
+.mandatory{
+  label::after{
+    content:'*';
+    color:red;
+  }
+}
 </style>

@@ -19,6 +19,7 @@
   "ser03":"室外骨灰位",
   "ser04":"室内骨灰位",
   "ser05":"殡仪及火化服务",
+  "ser06":"Other",
   "area":"Service Area",
   "faq":"FAQ",
   "q1":"墓地需要支付地税吗？",
@@ -38,13 +39,13 @@
   },
   "zh":{
   "slogan":"专业一站式服务<br>令您及家人安枕无忧",
-  "intro":"安省持牌墓园及殡葬顾问",
+  "intro":"安省持牌墓园及预置殡葬顾问",
   "his":"公司历史",
   "intro01":"我们公司专业一站式服务属下的墓园致力于提供一个宁静而得以永久安息之地。生命的消逝不是终点，让亲友们彼此对先人思念得以慰藉。",
   "intro02":"预先购买墓地和葬礼需要深思熟虑的决定，因此在你需要的时候，我们乐于为你提供详尽咨询，专业真诚的服务与加拿大多元文化的结合，让你做最合适的安排，毫无后顾之忧。一站式服务包括墓地，骨灰位，葬礼以及火化的各类安排",
   "intro03":"我们服务华人社区多年，具有丰富经验了解你的需要，全程陪同指引。以真挚温情服务受到客户的信任及赞赏，选择我们的服务等于选择明智、完美的承诺",
-  "henry":"徐培康",
-  "venus":"刘雄鹰",
+  "henry":"徐培康<br>Henry Chui",
+  "venus":"刘雄鹰<br>Venus Liu",
   "about":"关于我们",
   "history01":"Arbor公司自1947年起提供墓地，殡葬及火化等专业服务。它是加拿大最的墓园，殡葬公司。为本地成千上万的家庭提供一站式服务。 ，40个环境清幽的墓园及20所火葬场。",
   "history02":"Arbor致力于提供全方面贴心服务，协助有需要的家庭妥善安排安排事项，在这X哀伤X乱的时刻伴你同行，为逝者妥善安排最后一程。",
@@ -55,6 +56,7 @@
   "ser03":"室外骨灰位",
   "ser04":"室内骨灰位",
   "ser05":"殡仪及火化服务",
+  "ser06":"其他服务",
   "faq":"常见问题",
   "q1":"墓地需要支付地税吗？",
   "a1":"不需要，墓地是没有地税的。",
@@ -76,12 +78,12 @@
   "slogan":"專業一站式服務<br>令您及家人安枕無憂",
     "his":"公司歷史",
   "contact":"聯繫我們",
-  "intro":"安省持牌墓園及殯葬顧問",
+  "intro":"安省持牌墓園及預置殯葬顧問",
   "intro01":"我們公司專業一站式服務屬下的墓園致力於提供一個寧靜而得以永久安息之地。生命的消逝不是終點，讓親友們彼此對先人思念得以慰藉。",
   "intro02":"預先購買墓地和葬禮需要深思熟慮的決定，因此在你需要的時候，我們樂於為你提供詳盡諮詢，專業真誠的服務與加拿大多元文化的結合，讓你做最合適的安排，毫無後顧之憂。一站式服務包括墓地，骨灰位，葬禮以及火化的各類安排。",
   "intro03":"我們服務華人社區多年，具有豐富經驗了解你的需要，全程陪同指引。以真摯溫情服務受到客戶的信任及讚賞，選擇我們的服務等於選擇明智、完美的承諾！",
-  "henry":"徐培康",
-  "venus":"劉雄鷹",
+  "henry":"徐培康<br>Henry Chui",
+  "venus":"劉雄鷹<br>Venus Liu",
   "about":"关于我们",
   "history01":"Arbor公司自1947年起提供墓地，殯葬及火化等專業服務。它是加拿大最的墓園、殯葬公司。為本地成千上萬的家庭提供一站式服務。業務遍佈各省，擁有超過90間殯儀館，40個環境清幽的墓園及20所火葬場。",
   "history02":"Arbor致力於提供全方面貼心服務，協助有需要的家庭妥善安排一系列事項，在這Ｘ哀傷Ｘ亂的時刻伴你同行，為逝者妥善安排最後一程。",
@@ -114,9 +116,9 @@
   <b-container fluid>
     <Nav />
     <div class="top-banner">
-      <div class="text-area"  data-aos="fade-up">
+      <div class="text-area" >
         <h1 v-html="$t('slogan')" ></h1>
-        <nuxt-link to="#contact"  class="general-btn">{{$t('Contact')}}</nuxt-link>
+        <nuxt-link to="#contact"  class="general-btn">{{$t('contact')}}</nuxt-link>
       </div>
     </div>
     <br>
@@ -125,7 +127,7 @@
     <section id="about">
       <b-container >
         <b-row>
-          <b-col cols="12" md="6" sm="12"  data-aos="fade-right">
+          <b-col cols="12" md="6" sm="12"  >
             <b-row class="agency">
               <b-col
                 style="background-image:url('/img/venus.png');background-repeat:no-repeat;background-size:contain;background-position:bottom;">
@@ -135,7 +137,7 @@
               <b-col>
                 <div class="info-pad">
                   <br>
-                  <h3>{{$t('venus')}}</h3>
+                  <h3 v-html="$t('venus')"></h3>
                   <a href="tel:1-647-898-9632">647-898-9632</a>
                   <br>
                   <b-img src="/img/venus-qrcode.png" width="120" fluid />
@@ -148,7 +150,7 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="12" md="6" sm="12"  data-aos="fade-left">
+          <b-col cols="12" md="6" sm="12" >
             <b-row class="agency">
               <b-col
                 style="background-image:url('/img/henry.png');background-repeat:no-repeat;background-size:contain;background-position:bottom;">
@@ -158,7 +160,7 @@
               <b-col>
                 <div class="info-pad">
                   <br>
-                  <h3>{{$t('henry')}}</h3>
+                  <h3 v-html="$t('henry')"></h3>
                   <a href="tel:1-416-722-3453">416-722-3453</a>
                   <br>
                   <b-img src="/img/henry-qrcode.png" width="120" fluid />
@@ -183,7 +185,7 @@
               <p>{{$t('intro02')}}</p>
               <p>{{$t('intro03')}}</p>
               <br>
-              <a href="" class="green-btn">{{$t('contact')}}</a>
+              <a href="#contact" class="green-btn">{{$t('contact')}}</a>
             </div>
           </b-col>
         </b-row>
@@ -329,6 +331,9 @@
         </b-row>
       </b-container>
     </section>
+        <no-ssr>
+        <Backtop />
+    </no-ssr>
     <Footer />
   </b-container>
 </template>
@@ -337,12 +342,14 @@
   import Nav from '~/components/Nav.vue'
   import Form from '~/components/ContactForm.vue'
   import Footer from '~/components/Footer.vue'
+  import Backtop from '~/components/BackToTop.vue'
 
   export default {
     components: {
       Nav,
       Footer,
-      Form
+      Form,
+      Backtop
     }
   }
 
