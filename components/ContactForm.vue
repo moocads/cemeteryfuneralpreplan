@@ -91,18 +91,18 @@
       </b-form-group>
 
 
-      <b-form-group id="fieldjyuldrl" name="cm-fo-jyuldrl" value="">
-                                                  <template v-slot:label>
+      <b-form-group >
+        <template v-slot:label>
     {{$t('ser')}}<span class="text-danger">*</span>
   </template>
-        <b-form-select id="input-3" required>
+        <b-form-select id="fieldjyuldrl" name="cm-fo-jyuldrl" value="" required>
           <option value="">{{$t('select')}}</option>
           <option value="2938613">{{$t('ser01')}}</option>
           <option value="2938614">{{$t('ser02')}}</option>
           <option value="2938615">{{$t('ser03')}}</option>
           <option value="2938616">{{$t('ser04')}}</option>
           <option value="2938617">{{$t('ser05')}}</option>
-          <option value="other">{{$t('ser06')}}</option>
+          <option value="2939685">{{$t('ser06')}}</option>
         </b-form-select>
       </b-form-group>
       <b-form-textarea id="fieldjyuldrr" maxlength="200" name="cm-f-jyuldrr" placeholder="Send us your message ..." rows="3" max-rows="6">
