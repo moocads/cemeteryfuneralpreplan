@@ -70,13 +70,12 @@ export default {
           }
         ],
         defaultLocale: 'zh',
-        seo:true,
-        detectBrowserLanguage: {
-          useCookie: true,
-          cookieKey: 'i18n_redirected',
-          alwaysRedirect: false,
-          fallbackLocale: 'en'
-        }
+        // detectBrowserLanguage: {
+        //   useCookie: false,
+        //   cookieKey: 'i18n_redirected',
+        //   alwaysRedirect: false,
+        //   fallbackLocale: 'en'
+        // }
       }
     ],
   ],
