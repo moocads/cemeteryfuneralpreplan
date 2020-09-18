@@ -52,7 +52,6 @@ export default {
       'nuxt-i18n',
       {
         vueI18nLoader: true,
-        baseUrl: 'https://moocads.com',
         locales: [
           {
             code: 'en',
@@ -63,6 +62,11 @@ export default {
             code: 'zh',
             iso: 'zh-CN',
             name: 'ZH'
+          },
+          {
+            code: 'tc',
+            iso: 'zh-Hant',
+            name: 'TC'
           }
         ],
         defaultLocale: 'zh',
