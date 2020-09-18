@@ -13,7 +13,8 @@
   "ser04":"室内骨灰位",
   "ser05":"殡仪及火化服务",
   "ser06":"Other",
-  "note":"Thank you! We will reply you as soon as possible."
+  "note":"Thank you! We will reply you as soon as possible.",
+  "sub":"Sumbit"
   },
   "zh":{
   "email":"Email",
@@ -28,22 +29,24 @@
   "ser04":"室内骨灰位",
   "ser05":"殡仪及火化服务",
   "ser06":"其他服务",
-  "note":"Thank you! We will reply you as soon as possible."
+  "note":"请告诉我们您的需求，谢谢。",
+  "sub":"提交"
   },
   "tc":{
-  "email":"Email",
-  "phone":"电话",
-  "firstn":"First Name",
-  "lastn":"Last Name",
-  "ser":"我们的服务",
-  "select":"请选择以下服务",
-  "ser01":"土葬服务",
-  "ser02":"骨灰土葬服务",
+  "email":"郵件",
+  "phone":"電話",
+  "firstn":"名",
+  "lastn":"姓",
+  "ser":"我們的服務",
+  "select":"請選擇以下服務",
+  "ser01":"土葬服務",
+  "ser02":"骨灰土葬服務",
   "ser03":"室外骨灰位",
   "ser04":"室内骨灰位",
-  "ser05":"殡仪及火化服务",
-  "ser06":"其他服务",
-  "note":"Thank you! We will reply you as soon as possible."
+  "ser05":"殯儀及火化服務",
+  "ser06":"其他服務",
+  "note":"請告訴我們您的需求，謝謝。",
+  "sub":"提交"
   }
   }
 </i18n>
@@ -107,7 +110,7 @@
       <br>
       <b-row>
         <b-col>
-          <b-button type="submit" variant="primary" class="sub-btn">Submit</b-button>
+          <b-button type="submit" variant="primary" class="sub-btn">{{$t('sub')}}</b-button>
         </b-col>
         <!-- <b-col>
                    <b-button type="reset"  class="sub-btn">Reset</b-button>
