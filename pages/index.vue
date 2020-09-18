@@ -129,8 +129,7 @@
         <b-row>
           <b-col cols="12" md="6" sm="12"  >
             <b-row class="agency">
-              <b-col
-                style="background-image:url('/img/venus.png');background-repeat:no-repeat;background-size:contain;background-position:bottom;">
+              <b-col style="background-image:url('/img/venus.png');background-repeat:no-repeat;background-size:contain;background-position:bottom;">
 
                 <!-- <b-img src="/img/venus.png" fluid/> -->
               </b-col>
@@ -139,10 +138,8 @@
                   <br>
                   <h3 v-html="$t('venus')"></h3>
                   <a href="tel:1-647-898-9632">647-898-9632</a>
-                  <br>
-                  <b-img src="/img/venus-qrcode.png" width="120" fluid />
-                  <br>
-                  <br>
+
+                  <b-img src="/img/venus-qrcode.png" class="wechat-qrcode" fluid />
                   <div class="license">
                     {{$t('intro')}}
                   </div>
@@ -163,7 +160,7 @@
                   <h3 v-html="$t('henry')"></h3>
                   <a href="tel:1-416-722-3453">416-722-3453</a>
                   <br>
-                  <b-img src="/img/henry-qrcode.png" width="120" fluid />
+                  <b-img src="/img/henry-qrcode.png" class="wechat-qrcode" fluid />
                   <br>
                   <br>
                   <div class="license">
