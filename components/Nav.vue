@@ -4,6 +4,7 @@
     "name":"Pre-Plan Cemetery & Funeral",
       "about":"About Us",
       "cf":"Our Services",
+      "faq":"FAQ",
       "area":"Service Area",
       "contact":"Contact Us"
   },
@@ -11,6 +12,7 @@
     "name":"预置墓园及殡葬服务",
       "about":"关于我们",
        "cf":"我们的服务",
+       "faq":"常见问题",
        "area":"服务地区",
        "contact":"联系我们"
       },
@@ -18,6 +20,7 @@
     "name":"預置墓園及殯葬服務",
       "about":"關於我們",
        "cf":"我們的服務",
+       "faq":"常見問題",
        "area":"服務地區",
        "contact":"聯絡我們"
   }
@@ -37,13 +40,12 @@
   <b-navbar toggleable="lg" type="dark" variant="nav">
 
     <b-navbar-brand> {{$t('name')}}</b-navbar-brand>
-
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="ml-auto">
         <b-nav-item href="#about">{{$t('about')}}</b-nav-item>
         <b-nav-item href="#service">{{$t('cf')}}</b-nav-item>
+        <b-nav-item href="#faq">{{$t('faq')}}</b-nav-item>
         <b-nav-item href="#servicearea">{{$t('area')}}</b-nav-item>
         <b-nav-item href="#contact">{{$t('contact')}}</b-nav-item>
       </b-navbar-nav>

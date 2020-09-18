@@ -12,6 +12,7 @@
   "history01":"Arbor公司自1947年起提供墓地，殯葬及火化等專業服務。它是加拿大最的墓園、殯葬公司。為本地成千上萬的家庭提供一站式服務。業務遍佈各省，擁有超過90間殯儀館，40個環境清幽的墓園及20所火葬場。",
   "history02":"Arbor致力於提供全方面貼心服務，協助有需要的家庭妥善安排一系列事項，在這Ｘ哀傷Ｘ亂的時刻伴你同行，為逝者妥善安排最後一程。",
   "about":"About Us",
+  "about-title":"One-Stop Service",
   "contact":"Contact Now",
   "ser":"Our Services",
   "ser01":"土葬服务",
@@ -41,14 +42,15 @@
   "slogan":"专业一站式服务<br>令您及家人安枕无忧",
   "intro":"安省持牌墓园及预置殡葬顾问",
   "his":"公司历史",
-  "intro01":"我们公司专业一站式服务属下的墓园致力于提供一个宁静而得以永久安息之地。生命的消逝不是终点，让亲友们彼此对先人思念得以慰藉。",
-  "intro02":"预先购买墓地和葬礼需要深思熟虑的决定，因此在你需要的时候，我们乐于为你提供详尽咨询，专业真诚的服务与加拿大多元文化的结合，让你做最合适的安排，毫无后顾之忧。一站式服务包括墓地，骨灰位，葬礼以及火化的各类安排",
-  "intro03":"我们服务华人社区多年，具有丰富经验了解你的需要，全程陪同指引。以真挚温情服务受到客户的信任及赞赏，选择我们的服务等于选择明智、完美的承诺",
+  "intro01":"我们公司Arbor属下的墓园致力于提供一个宁静而得以永久安息之地。让生命的消逝不是终点，使家属亲友们彼此对先人思念得以慰藉，家庭文化和传统得以传承。",
+  "intro02":"预先购买墓地和葬礼需要深思熟虑的决定，因此在你需要的时候，我们乐于为你提供详尽咨询，专业真诚的服务与加拿大多元文化相结合，让你做出最合适的安排，毫无后顾之忧。一站式服务包括墓地，骨灰位，葬礼以及火化的各类安排。",
+  "intro03":"我们服务华人社区多年，具有丰富经验，了解你的需要，全程陪同指引，以真挚温情服务受到客户的信任及赞赏。选择我们的服务等于选择明智、完美的承诺！",
   "henry":"徐培康<br>Henry Chui",
   "venus":"刘雄鹰<br>Venus Liu",
   "about":"关于我们",
-  "history01":"Arbor公司自1947年起提供墓地，殡葬及火化等专业服务。它是加拿大最的墓园，殡葬公司。为本地成千上万的家庭提供一站式服务。 40个环境清幽的墓园及20所火葬场。",
-  "history02":"Arbor致力于提供全方面贴心服务，协助有需要的家庭妥善安排安排事项，在这段哀伤忙乱的时刻伴你同行，为逝者妥善安排最后一程。",
+  "about-title":"专业一站式服务",
+  "history01":"Arbor公司自1947年起提供墓地，殡葬及火化等专业服务。它是加拿大最大的墓园，殡葬公司。为本地成千上万的家庭提供一站式服务。业务遍布各省，拥有超过90间殡仪馆， 40个环境清幽的墓园及20所火葬场。",
+  "history02":"Arbor致力于提供全方面贴心服务，协助有需要的家庭妥善安排一系列事务，在这段哀伤忙乱的时刻伴你同行，为逝者妥善安排最后一程。",
   "contact":"联系我们",
   "ser":"我们的服务",
   "ser01":"土葬服务",
@@ -70,9 +72,9 @@
   "a5":"可以。",
   "area":"服务区域",
   "area-01":"高山纪念墓园<br>(大多地区)",
-  "area-02":"好景殡仪馆和墓园 <br>(大多地区)",
-  "area-03":"松柏纪念园<br>(大多地区)",
-  "area-04":"嘉丽殡仪馆和墓园 <br>(密西沙加地区)"
+  "area-02":"好景纪念墓园 <br>(大多地区)",
+  "area-03":"松柏纪念墓园<br>(大多地区)",
+  "area-04":"嘉丽纪念墓园 <br>(密西沙加地区)"
   },
   "tc":{
   "slogan":"專業一站式服務<br>令您及家人安枕無憂",
@@ -85,6 +87,7 @@
   "henry":"徐培康<br>Henry Chui",
   "venus":"劉雄鷹<br>Venus Liu",
   "about":"關於我們",
+  "about-title":"專業一站式服務",
   "history01":"Arbor公司自1947年起提供墓地，殯葬及火化等專業服務。它是加拿大最的墓園、殯葬公司。為本地成千上萬的家庭提供一站式服務。業務遍佈各省，擁有超過90間殯儀館，40個環境清幽的墓園及20所火葬場。",
   "history02":"Arbor致力於提供全方面貼心服務，協助有需要的家庭妥善安排一系列事項，在這Ｘ哀傷Ｘ亂的時刻伴你同行，為逝者妥善安排最後一程。",
   "ser":"我們的服務",
@@ -138,7 +141,7 @@
                   <br>
                   <h3 v-html="$t('venus')"></h3>
                   <a href="tel:1-647-898-9632">647-898-9632</a>
-
+<p>精通國·粵·英</p>
                   <b-img src="/img/venus-qrcode.png" class="wechat-qrcode" fluid />
                   <div class="license">
                     {{$t('intro')}}
@@ -159,7 +162,7 @@
                   <br>
                   <h3 v-html="$t('henry')"></h3>
                   <a href="tel:1-416-722-3453">416-722-3453</a>
-             
+                  <p>精通國·粵·英</p>
                   <b-img src="/img/henry-qrcode.png" class="wechat-qrcode" fluid />
                   
                   <div class="license">
@@ -175,7 +178,7 @@
         <b-row>
           <b-col cols="12" md="12" sm="12">
             <div class="pointer">
-              <h2>{{$t('about')}}</h2>
+              <h2>{{$t('about-title')}}</h2>
               <hr>
               <p>{{$t('intro01')}}</p>
               <p>{{$t('intro02')}}</p>
@@ -308,19 +311,18 @@
 
             <div class='embed-container'><iframe src='https://www.youtube.com/embed/V4GdNb6WAko' frameborder='0'
                 allowfullscreen muted></iframe></div>
-
           </b-col>
           <b-col cols="12" md="3" sm="12">
             <h3 v-html="$t('area-03')"></h3>
-            <nuxt-link to="/"> 541 Taunton Rd W, <br>Ajax, ON</nuxt-link>
-            <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
+             <a href="https://goo.gl/maps/3ooNKtXxmxzQXLyL9" target="_blank"> 541 Taunton Rd W, <br>Ajax, ON</a>
+            <a href="https://goo.gl/maps/3ooNKtXxmxzQXLyL9" target="_blank" class="direction-btn">Direction</a>
             <div class='embed-container'><iframe src='https://www.youtube.com/embed/LFMQ1nVadeM' frameborder='0'
                 allowfullscreen muted></iframe></div>
           </b-col>
           <b-col cols="12" md="3" sm="12">
             <h3 v-html="$t('area-04')"></h3>
-            <nuxt-link to="/">3164 Ninth Line,<br> Oakville, ON</nuxt-link>
-            <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
+            <a href="https://goo.gl/maps/WkaQmQUnUZb4gDSj7" target="_blank">3164 Ninth Line,<br> Oakville, ON</a>
+            <a href="https://goo.gl/maps/WkaQmQUnUZb4gDSj7" target="_blank" class="direction-btn">Direction</a>
             <div class='embed-container'><iframe src='https://www.youtube.com/embed/GiogBDhaXQs' frameborder='0'
                 allowfullscreen muted></iframe></div>
           </b-col>
