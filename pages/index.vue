@@ -12,6 +12,7 @@
   "history01":"Arbor Memorial Inc. is a family-owned Canadian company, established in 1947 that provides interment rights, cremations, funerals and associated services to families across the country.",
   "history02":"Arbor Memorial offers conveniently located funeral homes and cemeteries to best serve the needs of our families. With 41 cemeteries, 28 crematoria and 92 funeral homes in the provinces across Canada, Arbor Memorial is prepared to serve the needs of all Canadians.",
   "about":"About Us",
+  "lang":"Mandarin, Cantonese, English",
   "about-title":"One-Stop Service",
   "contact":"Contact Now",
   "ser":"Our Services",
@@ -48,6 +49,7 @@
   "henry":"徐培康<br>Henry Chui",
   "venus":"刘雄鹰<br>Venus Liu",
   "about":"关于我们",
+  "lang":"精通国·粤·英",
   "about-title":"专业一站式服务",
   "history01":"Arbor公司自1947年起提供墓地，殡葬及火化等专业服务。它是加拿大最大的墓园，殡葬公司。为本地成千上万的家庭提供一站式服务。业务遍布各省，拥有超过90间殡仪馆， 40个环境清幽的墓园及20所火葬场。",
   "history02":"Arbor致力于提供全方面贴心服务，协助有需要的家庭妥善安排一系列事务，在这段哀伤忙乱的时刻伴你同行，为逝者妥善安排最后一程。",
@@ -81,15 +83,16 @@
     "his":"公司歷史",
   "contact":"聯絡我們",
   "intro":"安省持牌墓園及預置殯葬顧問",
-  "intro01":"我們公司專業一站式服務屬下的墓園致力於提供一個寧靜而得以永久安息之地。生命的消逝不是終點，讓親友們彼此對先人思念得以慰藉。",
-  "intro02":"預先購買墓地和葬禮需要深思熟慮的決定，因此在你需要的時候，我們樂於為你提供詳盡諮詢，專業真誠的服務與加拿大多元文化的結合，讓你做最合適的安排，毫無後顧之憂。一站式服務包括墓地，骨灰位，葬禮以及火化的各類安排。",
-  "intro03":"我們服務華人社區多年，具有豐富經驗了解你的需要，全程陪同指引。以真摯溫情服務受到客戶的信任及讚賞，選擇我們的服務等於選擇明智、完美的承諾！",
+  "intro01":"我們公司Arbor屬下的墓園致力於提供一個寧靜而得以永久安息之地。讓生命的消逝不是終點，使家屬親友們彼此對先人的思念得以慰藉，家庭文化和傳統得以傳承。",
+  "intro02":"預先購買墓地和葬禮需要深思熟慮的決定，因此在你需要的時候，我們樂於為你提供詳盡諮詢，專業真誠的服務與加拿大多元文化相結合，讓你做出最合適的安排，毫無後顧之憂。一站式服務包括墓地，骨灰位，葬禮以及火化的各類安排。",
+  "intro03":"我們服務華人社區多年，具有豐富經驗，了解你的需要，全程陪同指引，以真摯溫情服務受到客戶的信任及讚賞。選擇我們的服務等於選擇明智、完美的承諾！",
   "henry":"徐培康<br>Henry Chui",
   "venus":"劉雄鷹<br>Venus Liu",
   "about":"關於我們",
+  "lang":"精通國·粵·英",
   "about-title":"專業一站式服務",
-  "history01":"Arbor公司自1947年起提供墓地，殯葬及火化等專業服務。它是加拿大最的墓園、殯葬公司。為本地成千上萬的家庭提供一站式服務。業務遍佈各省，擁有超過90間殯儀館，40個環境清幽的墓園及20所火葬場。",
-  "history02":"Arbor致力於提供全方面貼心服務，協助有需要的家庭妥善安排一系列事項，在這Ｘ哀傷Ｘ亂的時刻伴你同行，為逝者妥善安排最後一程。",
+  "history01":"Arbor公司自1947年起提供墓地，殯葬及火化等專業服務。它是加拿大最大的墓園，殯葬公司。為本地成千上萬的家庭提供一站式服務。業務遍布各省，擁有超過90間殯儀館， 40個環境清幽的墓園及20所火葬場。",
+  "history02":"Arbor致力於提供全方面貼心服務，協助有需要的家庭妥善安排一系列事務，在這段哀傷忙亂的時刻伴你同行，為逝者妥善安排最後一程。",
   "ser":"我們的服務",
   "ser01":"土葬服務",
   "ser02":"骨灰土葬服務",
@@ -141,7 +144,7 @@
                   <br>
                   <h3 v-html="$t('venus')"></h3>
                   <a href="tel:1-647-898-9632">647-898-9632</a>
-<p>精通國·粵·英</p>
+<p>{{$t('lang')}}</p>
                   <b-img src="/img/venus-qrcode.png" class="wechat-qrcode" fluid />
                   <div class="license">
                     {{$t('intro')}}
@@ -162,7 +165,7 @@
                   <br>
                   <h3 v-html="$t('henry')"></h3>
                   <a href="tel:1-416-722-3453">416-722-3453</a>
-                  <p>精通國·粵·英</p>
+                  <p>{{$t('lang')}}</p>
                   <b-img src="/img/henry-qrcode.png" class="wechat-qrcode" fluid />
                   
                   <div class="license">
