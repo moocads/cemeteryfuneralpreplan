@@ -112,9 +112,9 @@
   "a5":"可以。",
   "area":"服務區域",
   "area-01":"高山紀念墓園<br>Highland Memory Garden<br>(大多地區)",
-  "area-02":"好景殯儀館和墓園 <br>Highland Hill Memory Garden<br>(大多地區)",
-  "area-03":"松柏紀念園<br>Pine Ridge Memory Garden<br>(大多地區)",
-  "area-04":"嘉麗殯儀館和墓園 <br>Glen Oaks Memory Garden<br>(密西沙加地區)"
+  "area-02":"好景紀念墓園 <br>Highland Hill Memory Garden<br>(大多地區)",
+  "area-03":"松柏紀念墓園<br>Pine Ridge Memory Garden<br>(大多地區)",
+  "area-04":"嘉麗紀念墓園<br>Glen Oaks Memory Garden<br>(密西沙加地區)"
   }
   }
 </i18n>
