@@ -73,10 +73,10 @@
   "q5":"5. 如逝者不是加国居民，可否安葬在加国？",
   "a5":"可以。",
   "area":"服务区域",
-  "area-01":"高山纪念墓园<br>(大多地区)",
-  "area-02":"好景纪念墓园 <br>(大多地区)",
-  "area-03":"松柏纪念墓园<br>(大多地区)",
-  "area-04":"嘉丽纪念墓园 <br>(密西沙加地区)"
+  "area-01":"高山纪念墓园<br>Highland Memory Garden<br>(大多地区)",
+  "area-02":"好景纪念墓园 <br>Highland Hill Memory Garden<br>(大多地区)",
+  "area-03":"松柏纪念墓园<br>Pine Ridge Memory Garden<br>(大多地区)",
+  "area-04":"嘉丽纪念墓园 <br>Glen Oaks Memory Garden<br>(密西沙加地区)"
   },
   "tc":{
   "slogan":"專業一站式服務<br>令您及家人安枕無憂",
@@ -111,10 +111,10 @@
   "q5":"5. 如逝者不是加國居民，可否安葬在加國？",
   "a5":"可以。",
   "area":"服務區域",
-  "area-01":"高山紀念墓園<br>(大多地區)",
-  "area-02":"好景殯儀館和墓園 <br>(大多地區)",
-  "area-03":"松柏紀念園<br>(大多地區)",
-  "area-04":"嘉麗殯儀館和墓園 <br>(密西沙加地區)"
+  "area-01":"高山紀念墓園<br>Highland Memory Garden<br>(大多地區)",
+  "area-02":"好景殯儀館和墓園 <br>Highland Hill Memory Garden<br>(大多地區)",
+  "area-03":"松柏紀念園<br>Pine Ridge Memory Garden<br>(大多地區)",
+  "area-04":"嘉麗殯儀館和墓園 <br>Glen Oaks Memory Garden<br>(密西沙加地區)"
   }
   }
 </i18n>
