@@ -356,11 +356,16 @@ h2{
         height: 40vh;
 
         .text-area{
-            padding-top: 25%;
+            padding-top: 55%;
             h1{
                 font-size: 25px;
             }
         }
+    }
+
+    section {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .agency{
@@ -378,5 +383,48 @@ h2{
 }
 .wechat-qrcode{
     width: 90px;
+}
+}
+
+@media screen and (max-width:540px){
+    .top-banner{
+        height: 60vh;
+
+        .text-area{
+            padding-top: 55%;
+            h1{
+                font-size: 25px;
+            }
+        }
+    }
+
+    section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .agency{
+        margin:auto;
+        margin-bottom:15px;
+        .info-pad{
+             h3 {
+        font-size: 16px;
+    }
+
+    a{
+        font-size: 15px;
+        padding:5px;
+    }
+
+    p{
+        margin-bottom:0;
+    }
+}
+}
+.wechat-qrcode{
+    width: 70px;
+}
+.license{
+    font-size: 13px;
 }
 }
