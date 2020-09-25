@@ -32,9 +32,10 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    {src:'@/plugins/smoothscroll.js', ssr:false},
-    { src: "@/plugins/aos", ssr: false },
-    { src: "@/plugins/antcomponent.js", ssr: false }
+    {src:'~plugins/smoothscroll.js', ssr:false},
+    { src: "~plugins/aos", ssr: false },
+    { src: "~plugins/antcomponent.js", ssr: false },
+    { src: '~plugins/ga.js', mode: 'client' }
   ],
   /*
   ** Nuxt.js dev-modules
