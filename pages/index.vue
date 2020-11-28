@@ -303,16 +303,16 @@
             <h3 v-html="$t('area-01')"></h3>
             <nuxt-link to="/">33 Memory Gardens Ln, <br>North York, ON</nuxt-link>
             <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
-            <!-- <div class='embed-container'><iframe src='https://www.youtube.com/embed/rps3EBKjCCo' frameborder='0'
-                allowfullscreen muted autoplay></iframe></div> -->
+            <div class='embed-container'><iframe src='https://www.youtube.com/embed/rps3EBKjCCo' frameborder='0'
+                allowfullscreen muted autoplay></iframe></div>
           </b-col>
           <b-col cols="12" md="3" sm="12">
             <h3 v-html="$t('area-02')"></h3>
             <nuxt-link to="/">12492 Woodbine Ave, <br>Gormley, ON</nuxt-link>
             <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
-<!-- 
+
             <div class='embed-container'><iframe src='https://www.youtube.com/embed/V4GdNb6WAko' frameborder='0'
-                allowfullscreen muted></iframe></div> -->
+                allowfullscreen muted></iframe></div>
           </b-col>
           <b-col cols="12" md="3" sm="12">
             <h3 v-html="$t('area-03')"></h3>
