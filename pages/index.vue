@@ -144,7 +144,7 @@
                   <br>
                   <h3 v-html="$t('venus')"></h3>
                   <a href="tel:1-647-898-9632">647-898-9632</a>
-<p>{{$t('lang')}}</p>
+                  <p>{{$t('lang')}}</p>
                   <b-img src="/img/venus-qrcode.png" class="wechat-qrcode" fluid />
                   <div class="license">
                     {{$t('intro')}}
@@ -201,10 +201,9 @@
           </b-col>
           <b-col cols="12" md="1" sm="12" style="height:50px;"></b-col>
           <b-col cols="12" md="6" sm="12">
-            <h2>
-              <b-img src="/img/arbor-logo.png" width="150" fluid /> | {{$t('his')}} </h2>
-            <p>{{$t('history01')}}</p>
-            <p>{{$t('history02')}}</p>
+            <!-- <h2><b-img src="/img/arbor-logo.png" width="150" fluid /> | {{$t('his')}} </h2> -->
+            <!-- <p>{{$t('history01')}}</p> -->
+            <!-- <p>{{$t('history02')}}</p> --> 
             <b-img src="/img/highland-hills-funeral-home-cemetery-10.jpg" data-aos="fade-up" class="company-img" fluid />
             <br>
             <br>
@@ -304,30 +303,30 @@
             <h3 v-html="$t('area-01')"></h3>
             <nuxt-link to="/">33 Memory Gardens Ln, <br>North York, ON</nuxt-link>
             <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
-            <div class='embed-container'><iframe src='https://www.youtube.com/embed/rps3EBKjCCo' frameborder='0'
-                allowfullscreen muted autoplay></iframe></div>
+            <!-- <div class='embed-container'><iframe src='https://www.youtube.com/embed/rps3EBKjCCo' frameborder='0'
+                allowfullscreen muted autoplay></iframe></div> -->
           </b-col>
           <b-col cols="12" md="3" sm="12">
             <h3 v-html="$t('area-02')"></h3>
             <nuxt-link to="/">12492 Woodbine Ave, <br>Gormley, ON</nuxt-link>
             <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
-
+<!-- 
             <div class='embed-container'><iframe src='https://www.youtube.com/embed/V4GdNb6WAko' frameborder='0'
-                allowfullscreen muted></iframe></div>
+                allowfullscreen muted></iframe></div> -->
           </b-col>
           <b-col cols="12" md="3" sm="12">
             <h3 v-html="$t('area-03')"></h3>
              <a href="https://goo.gl/maps/3ooNKtXxmxzQXLyL9" target="_blank"> 541 Taunton Rd W, <br>Ajax, ON</a>
             <a href="https://goo.gl/maps/3ooNKtXxmxzQXLyL9" target="_blank" class="direction-btn">Direction</a>
-            <div class='embed-container'><iframe src='https://www.youtube.com/embed/LFMQ1nVadeM' frameborder='0'
-                allowfullscreen muted></iframe></div>
+            <!-- <div class='embed-container'><iframe src='https://www.youtube.com/embed/LFMQ1nVadeM' frameborder='0'
+                allowfullscreen muted></iframe></div> -->
           </b-col>
           <b-col cols="12" md="3" sm="12">
             <h3 v-html="$t('area-04')"></h3>
             <a href="https://goo.gl/maps/WkaQmQUnUZb4gDSj7" target="_blank">3164 Ninth Line,<br> Oakville, ON</a>
             <a href="https://goo.gl/maps/WkaQmQUnUZb4gDSj7" target="_blank" class="direction-btn">Direction</a>
-            <div class='embed-container'><iframe src='https://www.youtube.com/embed/GiogBDhaXQs' frameborder='0'
-                allowfullscreen muted></iframe></div>
+            <!-- <div class='embed-container'><iframe src='https://www.youtube.com/embed/GiogBDhaXQs' frameborder='0'
+                allowfullscreen muted></iframe></div> -->
           </b-col>
         </b-row>
       </b-container>

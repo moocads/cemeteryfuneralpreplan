@@ -84,7 +84,7 @@
       </b-form-group>
 
       <b-form-group id="input-group-2">
-                                          <template v-slot:label>
+      <template v-slot:label>
     {{$t('phone')}}<span class="text-danger">*</span>
   </template>
         <b-form-input id="fieldjyuiuyi" maxlength="200" name="cm-f-jyuiuyi" required placeholder="Phone number"></b-form-input>

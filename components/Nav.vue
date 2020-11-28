@@ -31,7 +31,7 @@
     <div class="topbar">
        <b-navbar toggleable="lg" type="dark" variant="nav">
        <b-navbar-nav class="ml-auto">
-        <b-nav-item :href="switchLocalePath('en')">En</b-nav-item>
+        <!-- <b-nav-item :href="switchLocalePath('en')">En</b-nav-item> -->
         <b-nav-item :href="switchLocalePath('zh')">简</b-nav-item>
         <b-nav-item :href="switchLocalePath('tc')">繁</b-nav-item>
       </b-navbar-nav>
