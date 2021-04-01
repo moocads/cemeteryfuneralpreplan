@@ -34,16 +34,14 @@
   "a4":"Yes.",
   "q5":"If the deceased is not a Canadian resident, can he/she be buried Canada?",
   "a5":"Yes.",
-  "area-01":"Highland Memory Garden",
-  "area-02":"Highland Hill Memory Garden",
-  "area-03":"Pine Ridge Memory Garden",
-  "area-04":"Glen Oaks Memory Garden"
+  "area-01":"Richmond Hill Cemetery",
+  "area-02":"Chapel Ridge Funeral Home"
   },
   "zh":{
   "slogan":"专业一站式服务<br>令您及家人安枕无忧",
   "intro":"安省持牌墓园及预置殡葬顾问",
   "his":"公司历史",
-  "intro01":"我们公司Arbor属下的墓园致力于提供一个宁静而得以永久安息之地。让生命的消逝不是终点，使家属亲友们彼此对先人的思念得以慰藉，家庭文化和传统得以传承。",
+  "intro01":"我们公司致力于提供一个宁静而得以永久安息之地。让生命的消逝不是终点，使家属亲友们彼此对先人的思念得以慰藉，家庭文化和传统得以传承。",
   "intro02":"预先购买墓地和葬礼需要深思熟虑的决定，因此在你需要的时候，我们乐于为你提供详尽咨询，专业真诚的服务与加拿大多元文化相结合，让你做出最合适的安排，毫无后顾之忧。一站式服务包括墓地，骨灰位，葬礼以及火化的各类安排。",
   "intro03":"我们服务华人社区多年，具有丰富经验，了解你的需要，全程陪同指引，以真挚温情服务受到客户的信任及赞赏。选择我们的服务等于选择明智、完美的承诺！",
   "henry":"徐培康<br>Henry Chui",
@@ -72,18 +70,16 @@
   "a4":"可以。",
   "q5":"5. 如逝者不是加国居民，可否安葬在加国？",
   "a5":"可以。",
-  "area":"服务区域",
-  "area-01":"高山纪念墓园<br>Highland Memory Garden<br>(大多地区)",
-  "area-02":"好景纪念墓园 <br>Highland Hill Memory Garden<br>(大多地区)",
-  "area-03":"松柏纪念墓园<br>Pine Ridge Memory Garden<br>(大多地区)",
-  "area-04":"嘉丽纪念墓园 <br>Glen Oaks Memory Garden<br>(密西沙加地区)"
+  "area":"墓园地址",
+  "area-01":"中华纪念园 <br>Richmond Hill Cemetery<br>",
+  "area-02":"积宝山殡仪馆 <br>Chapel Ridge Funeral Home<br>"
   },
   "tc":{
   "slogan":"專業一站式服務<br>令您及家人安枕無憂",
     "his":"公司歷史",
   "contact":"聯絡我們",
   "intro":"安省持牌墓園及預置殯葬顧問",
-  "intro01":"我們公司Arbor屬下的墓園致力於提供一個寧靜而得以永久安息之地。讓生命的消逝不是終點，使家屬親友們彼此對先人的思念得以慰藉，家庭文化和傳統得以傳承。",
+  "intro01":"我們公司的墓園致力於提供一個寧靜而得以永久安息之地。讓生命的消逝不是終點，使家屬親友們彼此對先人的思念得以慰藉，家庭文化和傳統得以傳承。",
   "intro02":"預先購買墓地和葬禮需要深思熟慮的決定，因此在你需要的時候，我們樂於為你提供詳盡諮詢，專業真誠的服務與加拿大多元文化相結合，讓你做出最合適的安排，毫無後顧之憂。一站式服務包括墓地，骨灰位，葬禮以及火化的各類安排。",
   "intro03":"我們服務華人社區多年，具有豐富經驗，了解你的需要，全程陪同指引，以真摯溫情服務受到客戶的信任及讚賞。選擇我們的服務等於選擇明智、完美的承諾！",
   "henry":"徐培康<br>Henry Chui",
@@ -110,11 +106,9 @@
   "a4":"可以。",
   "q5":"5. 如逝者不是加國居民，可否安葬在加國？",
   "a5":"可以。",
-  "area":"服務區域",
-  "area-01":"高山紀念墓園<br>Highland Memory Garden<br>(大多地區)",
-  "area-02":"好景紀念墓園 <br>Highland Hill Memory Garden<br>(大多地區)",
-  "area-03":"松柏紀念墓園<br>Pine Ridge Memory Garden<br>(大多地區)",
-  "area-04":"嘉麗紀念墓園<br>Glen Oaks Memory Garden<br>(密西沙加地區)"
+  "area":"墓园地址",
+  "area-01":"中華紀念園 <br>Richmond Hill Cemetery<br>",
+  "area-02":"積寶山殯儀館 <br>Chapel Ridge Funeral Home<br>"
   }
   }
 </i18n>
@@ -133,11 +127,9 @@
     <section id="about">
       <b-container >
         <b-row>
-          <b-col cols="12" md="6" sm="12"  >
+          <!-- <b-col cols="12" md="6" sm="12"  >
             <b-row class="agency">
               <b-col style="background-image:url('/img/venus.png');background-repeat:no-repeat;background-size:contain;background-position:bottom;">
-
-                <!-- <b-img src="/img/venus.png" fluid/> -->
               </b-col>
               <b-col>
                 <div class="info-pad">
@@ -152,7 +144,7 @@
                 </div>
               </b-col>
             </b-row>
-          </b-col>
+          </b-col> -->
           <b-col cols="12" md="6" sm="12" >
             <b-row class="agency">
               <b-col
@@ -175,9 +167,20 @@
               </b-col>
             </b-row>
           </b-col>
+          <b-col cols="12" md="6" sm="12" >
+                        <div class="pointer">
+              <h2>{{$t('about-title')}}</h2>
+              <hr>
+              <p>{{$t('intro01')}}</p>
+              <p>{{$t('intro02')}}</p>
+              <p>{{$t('intro03')}}</p>
+              <br>
+              <!-- <a href="#contact" class="green-btn">{{$t('contact')}}</a> -->
+            </div>
+          </b-col>
         </b-row>
         <br>
-        <br>
+        <!-- <br>
         <b-row>
           <b-col cols="12" md="12" sm="12">
             <div class="pointer">
@@ -190,29 +193,25 @@
               <a href="#contact" class="green-btn">{{$t('contact')}}</a>
             </div>
           </b-col>
-        </b-row>
+        </b-row> -->
       </b-container>
     </section>
     <section class="form-sec" id="contact">
       <b-container>
         <b-row>
-          <b-col cols="12" md="5" sm="12">
+          <b-col cols="12">
             <Form />
           </b-col>
-          <b-col cols="12" md="1" sm="12" style="height:50px;"></b-col>
+          <!-- <b-col cols="12" md="1" sm="12" style="height:50px;"></b-col>
           <b-col cols="12" md="6" sm="12">
-            <!-- <h2><b-img src="/img/arbor-logo.png" width="150" fluid /> | {{$t('his')}} </h2> -->
-            <!-- <p>{{$t('history01')}}</p> -->
-            <!-- <p>{{$t('history02')}}</p> --> 
             <b-img src="/img/highland-hills-funeral-home-cemetery-10.jpg" data-aos="fade-up" class="company-img" fluid />
             <br>
             <br>
             <b-img src="/img/24a9b6ba-8728-47a7-9bc5-0e7bf05acd5b_thumbnail.jpg" data-aos="fade-up" class="company-img" fluid />
-            <!-- <nuxt-link to="/" class="general-btn">Visit Company Website</nuxt-link> -->
             <br>
             <br>
             <br>
-          </b-col>
+          </b-col> -->
         </b-row>
       </b-container>
     </section>
@@ -225,27 +224,27 @@
           </b-col>
         </b-row>
         <b-row>
-          <b-col cols="12" md="4" sm="12" data-aos="fade-up" data-aos-delay="500">
+          <b-col cols="12" md="3" sm="12" data-aos="fade-up">
             <div class="service-img ser-1">
               <h3>{{$t('ser01')}}</h3>
             </div>
           </b-col>
-          <b-col cols="12" md="4" sm="12" data-aos="fade-up" data-aos-delay="550">
+          <b-col cols="12" md="3" sm="12" data-aos="fade-up">
             <div class="service-img ser-2">
               <h3>{{$t('ser02')}}</h3>
             </div>
           </b-col>
-          <b-col cols="12" md="4" sm="12" data-aos="fade-up" data-aos-delay="600">
+          <b-col cols="12" md="3" sm="12" data-aos="fade-up">
             <div class="service-img ser-3">
               <h3>{{$t('ser03')}}</h3>
             </div>
           </b-col>
-          <b-col cols="12" md="4" sm="12" data-aos="fade-up" data-aos-delay="650">
+          <b-col cols="12" md="3" sm="12" data-aos="fade-up">
             <div class="service-img ser-4">
-              <h3>{{$t('ser04')}}</h3>
+              <h3>{{$t('ser05')}}</h3>
             </div>
           </b-col>
-          <b-col cols="12" md="4" sm="12" data-aos="fade-up" data-aos-delay="700">
+          <!-- <b-col cols="12" md="4" sm="12" data-aos="fade-up" data-aos-delay="700">
             <div class="service-img ser-5">
               <h3>{{$t('ser05')}}</h3>
             </div>
@@ -254,7 +253,7 @@
             <div class="service-img ser-6">
               <h3>{{$t('ser01')}}</h3>
             </div>
-          </b-col>
+          </b-col> -->
         </b-row>
       </b-container>
     </section>
@@ -299,7 +298,19 @@
           </b-col>
         </b-row>
         <b-row>
-          <b-col cols="12" md="3" sm="12">
+          <b-col cols="12" md="6" sm="12">
+            <b-img src="/img/zhonghua-logo.jpg" fluid />
+            <h3 v-html="$t('area-01')"></h3>
+            <nuxt-link to="/">1100 Bethesda Side Rd, Whitchurch-Stouffville, ON L4A 7X5</nuxt-link>
+            <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
+          </b-col>
+          <b-col cols="12" md="6" sm="12">
+            <b-img src="/img/chapel-logo.jpg" fluid />
+            <h3 v-html="$t('area-02')"></h3>
+            <nuxt-link to="/">8911 Woodbine AveMarkham, ON L3R 5G1</nuxt-link>
+            <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
+          </b-col>
+          <!-- <b-col cols="12" md="3" sm="12">
             <h3 v-html="$t('area-01')"></h3>
             <nuxt-link to="/">33 Memory Gardens Ln, <br>North York, ON</nuxt-link>
             <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
@@ -313,21 +324,17 @@
 
             <div class='embed-container'><iframe src='https://www.youtube.com/embed/V4GdNb6WAko' frameborder='0'
                 allowfullscreen muted></iframe></div>
-          </b-col>
-          <b-col cols="12" md="3" sm="12">
+          </b-col> -->
+          <!-- <b-col cols="12" md="3" sm="12">
             <h3 v-html="$t('area-03')"></h3>
              <a href="https://goo.gl/maps/3ooNKtXxmxzQXLyL9" target="_blank"> 541 Taunton Rd W, <br>Ajax, ON</a>
             <a href="https://goo.gl/maps/3ooNKtXxmxzQXLyL9" target="_blank" class="direction-btn">Direction</a>
-            <!-- <div class='embed-container'><iframe src='https://www.youtube.com/embed/LFMQ1nVadeM' frameborder='0'
-                allowfullscreen muted></iframe></div> -->
           </b-col>
           <b-col cols="12" md="3" sm="12">
             <h3 v-html="$t('area-04')"></h3>
             <a href="https://goo.gl/maps/WkaQmQUnUZb4gDSj7" target="_blank">3164 Ninth Line,<br> Oakville, ON</a>
             <a href="https://goo.gl/maps/WkaQmQUnUZb4gDSj7" target="_blank" class="direction-btn">Direction</a>
-            <!-- <div class='embed-container'><iframe src='https://www.youtube.com/embed/GiogBDhaXQs' frameborder='0'
-                allowfullscreen muted></iframe></div> -->
-          </b-col>
+          </b-col> -->
         </b-row>
       </b-container>
     </section>
@@ -399,4 +406,13 @@
     height: 100%;
   }
 
+
+#servicearea{
+  img{
+    border-radius:10px;
+    margin-bottom:25px;
+    width:120px;
+  }
+  text-align: center;
+}
 </style>

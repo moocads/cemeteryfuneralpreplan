@@ -13,7 +13,7 @@
 </i18n>
 <template>
     <footer class="this-footer">
-        <small>2020 {{$t('name')}}</small>
+        <small>2021 {{$t('name')}}</small>
     </footer>
 </template>
 
