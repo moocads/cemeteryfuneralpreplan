@@ -54,8 +54,7 @@
   <div class="main-form">
     <div class="note">{{$t('note')}}</div>
     <b-form v-if="show" class="js-cm-form" id="subForm"
-      action="https://www.createsend.com/t/subscribeerror?description=" method="post"
-      data-id="2BE4EF332AA2E32596E38B640E905619A20F87F2FB0945001E0ED88929D24AC24B98AE7ACB02CB69E75149B4E8EE58DA6A52BAF45A918F4669BFCF6DA5BA1F8D">
+     action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E90561955BC9328E134A137DCF758886A84EAD6C6EE58A8A12A307FD7D5A686648C5DF0D8A20F09155F03E8C6E986C1B0ADCC99">
       <b-row>
         <b-col>
 
@@ -63,7 +62,7 @@
               <template v-slot:label>
     {{$t('firstn')}}<span class="text-danger">*</span>
   </template>
-            <b-form-input id="fieldjyuiuyj" maxlength="200" name="cm-f-jyuiuyj" required placeholder="Enter first name">
+            <b-form-input id="fieldjdtiujd" maxlength="200" name="cm-f-jdtiujd" required placeholder="Enter first name">
             </b-form-input>
           </b-form-group>
         </b-col>
@@ -72,7 +71,7 @@
                           <template v-slot:label>
     {{$t('lastn')}}<span class="text-danger">*</span>
   </template>
-            <b-form-input  id="fieldjyuiuyt" maxlength="200" name="cm-f-jyuiuyt" required placeholder="Enter last name"></b-form-input>
+            <b-form-input   id="fieldjdtiujh" maxlength="200" name="cm-f-jdtiujh" required placeholder="Enter last name"></b-form-input>
           </b-form-group>
         </b-col>
       </b-row>
@@ -80,14 +79,14 @@
     <template v-slot:label>
     {{$t('email')}}<span class="text-danger">*</span>
   </template>
-        <b-form-input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-ykjtkrr-ykjtkrr" type="email" required placeholder="Enter email"></b-form-input>
+        <b-form-input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-jrlruiu-jrlruiu" type="email" required placeholder="Enter email"></b-form-input>
       </b-form-group>
 
       <b-form-group id="input-group-2">
       <template v-slot:label>
     {{$t('phone')}}<span class="text-danger">*</span>
   </template>
-        <b-form-input id="fieldjyuiuyi" maxlength="200" name="cm-f-jyuiuyi" required placeholder="Phone number"></b-form-input>
+        <b-form-input id="fieldjdtiujk" maxlength="200" name="cm-f-jdtiujk" required placeholder="Phone number"></b-form-input>
       </b-form-group>
 
 
@@ -95,17 +94,17 @@
         <template v-slot:label>
     {{$t('ser')}}<span class="text-danger">*</span>
   </template>
-        <b-form-select id="fieldjyuldrl" name="cm-fo-jyuldrl" value="" required>
+        <b-form-select id="fieldjdtiutl" name="cm-fo-jdtiutl" value="" required>
           <option value="">{{$t('select')}}</option>
-          <option value="2942072">{{$t('ser01')}}</option>
-          <option value="2942073">{{$t('ser02')}}</option>
-          <option value="2942074">{{$t('ser03')}}</option>
-          <option value="2942075">{{$t('ser04')}}</option>
-          <option value="2942076">{{$t('ser05')}}</option>
-          <option value="2942077">{{$t('ser06')}}</option>
+          <option value="3142400">{{$t('ser01')}}</option>
+          <option value="3142401">{{$t('ser02')}}</option>
+          <option value="3142402">{{$t('ser03')}}</option>
+          <option value="3142403">{{$t('ser04')}}</option>
+          <option value="3142404">{{$t('ser05')}}</option>
+          <option value="3142405">{{$t('ser06')}}</option>
         </b-form-select>
       </b-form-group>
-      <b-form-textarea id="fieldjyuiuyd" maxlength="200" name="cm-f-jyuiuyd" placeholder="Send us your message ..." rows="3" max-rows="6">
+      <b-form-textarea  id="fieldjdtiuju" name="cm-f-jdtiuju" placeholder="Send us your message ..." rows="3" max-rows="6">
       </b-form-textarea>
       <br>
       <b-row>
@@ -119,6 +118,8 @@
     </b-form>
   </div>
 </template>
+
+
 
 <script>
   export default {
