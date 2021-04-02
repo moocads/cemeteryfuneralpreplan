@@ -364,19 +364,19 @@
 
 <style lang="scss" scoped>
   .ser-1 {
-    background-image: url('/img/chinese-cemetery.jpg');
+    background-image: url('/img/153.jpg');
   }
 
   .ser-2 {
-    background-image: url('/img/soil.jpeg');
+    background-image: url('/img/153.jpg');
   }
 
   .ser-3 {
-    background-image: url('/img/outside-01.jpeg');
+    background-image: url('/img/153.jpg');
   }
 
   .ser-4 {
-    background-image: url('/img/indoor-01.jpeg');
+    background-image: url('/img/153.jpg');
   }
 
   .ser-5 {
