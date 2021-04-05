@@ -382,10 +382,12 @@
     <section id="fengshui">
       <b-container>
         <h1>{{ $t("fengshui-title1") }}</h1>
+        <br />
         <p class="fengshui-subtext">
           {{ $t("fengshui-subtext-a") }}
         </p>
         <h1>{{ $t("fengshui-title2") }}</h1>
+        <br />
         <div class="cards-grid">
           <div class="card">
             <div class="card-body">
@@ -545,9 +547,11 @@ export default {
   .card-title {
     font-weight: bold;
     color: #333;
+    font-size: 18px;
   }
   .card-text {
     color: #919191;
+    font-size: 14px;
   }
 }
 </style>
