@@ -72,7 +72,20 @@
   "a5":"可以。",
   "area":"墓园地址",
   "area-01":"中华纪念园 <br>Richmond Hill Cemetery<br>",
-  "area-02":"积宝山殡仪馆 <br>Chapel Ridge Funeral Home<br>"
+  "area-02":"积宝山殡仪馆 <br>Chapel Ridge Funeral Home<br>",
+  "fengshui-title1":"风水宝地的选择",
+  "fengshui-subtext-a":"风水宝地的选择其所外的朝向及地势有着很大的关系，风水中把锦延的山脉视为龙脉，也就是说有山的地方普通都是好的。而其中龙脉像西北，东南，两个方向是吉祥的象征，因为这两个方位代表着财运的健康，同时顺应龙脉的地理走向而里得相当不错。因为顺应了龙脉的走向意味着顺应了风水，这样就算得上风水宝地了。无论感情，运势，健康，使下一代得到很好的提升，家族事业顺利，风生水起！",
+  "fengshui-title2":"以下教你选择风水宝地的五个原则：",
+  "fengshui-subtitle1":"依山傍水的原则：",
+  "fengshui-subtext-b-1":" 四周绿水青山环境，依山傍水是人们普遍认同的优美环境，也是好墓地的原则之一。它反映了风水学里所说的“山主人丁水主财，”意思就是：“山”可以令后代人丁兴旺，贵人多，有靠山。“水”代表财源滚滚的意思。由此可见：“山主人丁水主财”是考察墓地风水最简单精辟的总结。",
+  "fengshui-subtitle2":"前朝后靠左右抱的原则：",
+  "fengshui-subtext-b-2":"墓地风水也讲“左青龙右白虎，前朱雀后玄武”这是风水对墓地周边地形的总结。实际上就是四面环山，中间一个宽敞的盆地。后面的山为靠山，它宜高，宜大，宜重叠。左右青龙，白虎山，要比靠山底，构成一张太师椅的形式，形成一个好的风水局。",
+  "fengshui-subtitle3":"蜿蜒曲折的原则：",
+  "fengshui-subtext-b-3":"它的作用就是避免直冲，阻挡正面而来的煞气。风水原理主张“直则冲，曲则顺。”道路属曲，山水要蜿蜒，即是弯弯曲曲。曲径通幽巷的感觉，让水不能直出直入，为的是藏风藏气。",
+  "fengshui-subtitle4":"明堂开阔的原则：",
+  "fengshui-subtext-b-4":"上佳墓地另一个原则是名堂开阔有利于孕育人才，发展事业，大展鸿图之象。事实上明堂宽大明亮代表的是人民心胸开阔能包容，且有远大志向。墓穴前方有一片广阔年整的地方，生机勃勃，才能前途无量。所以墓地不宜没在窄小局限的山各。",
+  "fengshui-subtitle5":"回归自然的原则：",
+  "fengshui-subtext-b-5":"阴宅风水与阳宅风水选择恰恰相反。阴宅讲求宁静自然，山清水秀，风光秀丽的天人合一，才是仙人理想的人生后花园。而且是后人瞻仰仙人及享受自然的殿堂。阴宅风水将就安静，山环水抱，藏风聚气之局。"
   },
   "tc":{
   "slogan":"專業一站式服務<br>令您及家人安枕無憂",
@@ -108,7 +121,20 @@
   "a5":"可以。",
   "area":"墓园地址",
   "area-01":"中華紀念園 <br>Richmond Hill Cemetery<br>",
-  "area-02":"積寶山殯儀館 <br>Chapel Ridge Funeral Home<br>"
+  "area-02":"積寶山殯儀館 <br>Chapel Ridge Funeral Home<br>",
+  "fengshui-title1":"風水寶地的選擇",
+  "fengshui-subtext-a":"風水寶地的選擇其所外的朝向及地勢有著很大的關系，風水中把錦延的山脈視為龍脈，也就是說有山的地方普通都是好的。而其中龍脈像西北，東南，兩個方向是吉祥的象征，因為這兩個方位代表著財運的健康，同時順應龍脈的地理走向而裏得相當不錯。因為順應了龍脈的走向意味著順應了風水，這樣就算得上風水寶地了。無論感情，運勢，健康，使下一代得到很好的提升，家族事業順利，風生水起！",
+  "fengshui-title2":"以下教你選擇風水寶地的五個原則：",
+  "fengshui-subtitle1":"依山傍水的原則：",
+  "fengshui-subtext-b-1":" 四周綠水青山環境，依山傍水是人們普遍認同的優美環境，也是好墓地的原則之一。它反映了風水學裏所說的“山主人丁水主財，”意思就是：“山”可以令後代人丁興旺，貴人多，有靠山。“水”代表財源滾滾的意思。由此可見：“山主人丁水主財”是考察墓地風水最簡單精辟的總結。",
+  "fengshui-subtitle2":"前朝後靠左右抱的原則：",
+  "fengshui-subtext-b-2":"墓地風水也講“左青龍右白虎，前朱雀後玄武”這是風水對墓地周邊地形的總結。實際上就是四面環山，中間一個寬敞的盆地。後面的山為靠山，它宜高，宜大，宜重疊。左右青龍，白虎山，要比靠山底，構成一張太師椅的形式，形成一個好的風水局。",
+  "fengshui-subtitle3":"蜿蜒曲折的原則：",
+  "fengshui-subtext-b-3":"它的作用就是避免直沖，阻擋正面而來的煞氣。風水原理主張“直則沖，曲則順。”道路屬曲，山水要蜿蜒，即是彎彎曲曲。曲徑通幽巷的感覺，讓水不能直出直入，為的是藏風藏氣。",
+  "fengshui-subtitle4":"明堂開闊的原則：",
+  "fengshui-subtext-b-4":"上佳墓地另一個原則是名堂開闊有利於孕育人才，發展事業，大展鴻圖之象。事實上明堂寬大明亮代表的是人民心胸開闊能包容，且有遠大誌向。墓穴前方有一片廣闊年整的地方，生機勃勃，才能前途無量。所以墓地不宜沒在窄小局限的山各。",
+  "fengshui-subtitle5":"回歸自然的原則：",
+  "fengshui-subtext-b-5":"陰宅風水與陽宅風水選擇恰恰相反。陰宅講求寧靜自然，山清水秀，風光秀麗的天人合一，才是仙人理想的人生後花園。而且是後人瞻仰仙人及享受自然的殿堂。陰宅風水將就安靜，山環水抱，藏風聚氣之局。"
   }
   }
 </i18n>
@@ -353,6 +379,57 @@
         </b-row>
       </b-container>
     </section>
+    <section id="fengshui">
+      <b-container>
+        <h1>{{ $t("fengshui-title1") }}</h1>
+        <p class="fengshui-subtext">
+          {{ $t("fengshui-subtext-a") }}
+        </p>
+        <h1>{{ $t("fengshui-title2") }}</h1>
+        <div class="cards-grid">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">{{ $t("fengshui-subtitle1") }}</h5>
+              <p class="card-text">
+                {{ $t("fengshui-subtext-b-1") }}
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">{{ $t("fengshui-subtitle2") }}</h5>
+              <p class="card-text">
+                {{ $t("fengshui-subtext-b-2") }}
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">{{ $t("fengshui-subtitle3") }}</h5>
+              <p class="card-text">
+                {{ $t("fengshui-subtext-b-3") }}
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">{{ $t("fengshui-subtitle4") }}</h5>
+              <p class="card-text">
+                {{ $t("fengshui-subtext-b-4") }}
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">{{ $t("fengshui-subtitle5") }}</h5>
+              <p class="card-text">
+                {{ $t("fengshui-subtext-b-5") }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </b-container>
+    </section>
     <no-ssr>
       <Backtop />
     </no-ssr>
@@ -427,5 +504,50 @@ export default {
     width: 120px;
   }
   text-align: center;
+}
+#fengshui {
+  h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .fengshui-subtext {
+    color: #fff;
+    margin-bottom: 50px;
+  }
+  background-color: #3f8c7a;
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+  @media (max-width: 1300px) {
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+  }
+  @media (max-width: 800px) {
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+  }
+  @media (max-width: 600px) {
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+    }
+  }
+  .card-title {
+    font-weight: bold;
+    color: #333;
+  }
+  .card-text {
+    color: #919191;
+  }
 }
 </style>
