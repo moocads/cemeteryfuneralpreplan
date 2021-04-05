@@ -116,16 +116,18 @@
   <b-container fluid>
     <Nav />
     <div class="top-banner">
-      <div class="text-area" >
-        <h1 v-html="$t('slogan')" ></h1>
-        <nuxt-link to="#contact"  class="general-btn">{{$t('contact')}}</nuxt-link>
+      <div class="text-area">
+        <h1 v-html="$t('slogan')"></h1>
+        <nuxt-link to="#contact" class="general-btn">{{
+          $t("contact")
+        }}</nuxt-link>
       </div>
     </div>
-    <br>
+    <br />
 
-    <br>
+    <br />
     <section id="about">
-      <b-container >
+      <b-container>
         <b-row>
           <!-- <b-col cols="12" md="6" sm="12"  >
             <b-row class="agency">
@@ -145,41 +147,51 @@
               </b-col>
             </b-row>
           </b-col> -->
-          <b-col cols="12" md="6" sm="12" >
+          <b-col cols="12" md="6" sm="12">
             <b-row class="agency">
               <b-col
-                style="background-image:url('/img/henry.png');background-repeat:no-repeat;background-size:contain;background-position:bottom;">
+                style="
+                  background-image: url('/img/henry.png');
+                  background-repeat: no-repeat;
+                  background-size: contain;
+                  background-position: bottom;
+                "
+              >
                 <!-- <br>
               <b-img src="/img/henry.png" fluid/> -->
               </b-col>
               <b-col>
                 <div class="info-pad">
-                  <br>
+                  <br />
                   <h3 v-html="$t('henry')"></h3>
                   <a href="tel:1-416-722-3453">416-722-3453</a>
-                  <p>{{$t('lang')}}</p>
-                  <b-img src="/img/henry-qrcode.png" class="wechat-qrcode" fluid />
-                  
+                  <p>{{ $t("lang") }}</p>
+                  <b-img
+                    src="/img/henry-qrcode.png"
+                    class="wechat-qrcode"
+                    fluid
+                  />
+
                   <div class="license">
-                    {{$t('intro')}}
+                    {{ $t("intro") }}
                   </div>
                 </div>
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="12" md="6" sm="12" >
-                        <div class="pointer">
-              <h2>{{$t('about-title')}}</h2>
-              <hr>
-              <p>{{$t('intro01')}}</p>
-              <p>{{$t('intro02')}}</p>
-              <p>{{$t('intro03')}}</p>
-              <br>
+          <b-col cols="12" md="6" sm="12">
+            <div class="pointer">
+              <h2>{{ $t("about-title") }}</h2>
+              <hr />
+              <p>{{ $t("intro01") }}</p>
+              <p>{{ $t("intro02") }}</p>
+              <p>{{ $t("intro03") }}</p>
+              <br />
               <!-- <a href="#contact" class="green-btn">{{$t('contact')}}</a> -->
             </div>
           </b-col>
         </b-row>
-        <br>
+        <br />
         <!-- <br>
         <b-row>
           <b-col cols="12" md="12" sm="12">
@@ -219,29 +231,29 @@
       <b-container>
         <b-row>
           <b-col>
-            <h2>{{$t('ser')}}</h2>
-            <hr>
+            <h2>{{ $t("ser") }}</h2>
+            <hr />
           </b-col>
         </b-row>
         <b-row>
           <b-col cols="12" md="3" sm="12" data-aos="fade-up">
             <div class="service-img ser-1">
-              <h3>{{$t('ser01')}}</h3>
+              <h3>{{ $t("ser01") }}</h3>
             </div>
           </b-col>
           <b-col cols="12" md="3" sm="12" data-aos="fade-up">
             <div class="service-img ser-2">
-              <h3>{{$t('ser02')}}</h3>
+              <h3>{{ $t("ser02") }}</h3>
             </div>
           </b-col>
           <b-col cols="12" md="3" sm="12" data-aos="fade-up">
             <div class="service-img ser-3">
-              <h3>{{$t('ser03')}}</h3>
+              <h3>{{ $t("ser03") }}</h3>
             </div>
           </b-col>
           <b-col cols="12" md="3" sm="12" data-aos="fade-up">
             <div class="service-img ser-4">
-              <h3>{{$t('ser05')}}</h3>
+              <h3>{{ $t("ser05") }}</h3>
             </div>
           </b-col>
           <!-- <b-col cols="12" md="4" sm="12" data-aos="fade-up" data-aos-delay="700">
@@ -261,30 +273,30 @@
       <b-container>
         <b-row>
           <b-col>
-            <h2>{{$t('faq')}}</h2>
-            <hr>
+            <h2>{{ $t("faq") }}</h2>
+            <hr />
           </b-col>
         </b-row>
         <b-row>
           <b-col cols="12" md="4" sm="12">
-            <h3>{{$t('q1')}}</h3>
-            <p>{{$t('a1')}}</p>
+            <h3>{{ $t("q1") }}</h3>
+            <p>{{ $t("a1") }}</p>
           </b-col>
           <b-col cols="12" md="4" sm="12">
-            <h3>{{$t('q2')}}</h3>
-            <p>{{$t('a2')}}</p>
+            <h3>{{ $t("q2") }}</h3>
+            <p>{{ $t("a2") }}</p>
           </b-col>
           <b-col cols="12" md="4" sm="12">
-            <h3>{{$t('q3')}}</h3>
-            <p>{{$t('a3')}}</p>
+            <h3>{{ $t("q3") }}</h3>
+            <p>{{ $t("a3") }}</p>
           </b-col>
           <b-col cols="12" md="4" sm="12">
-            <h3>{{$t('q4')}}</h3>
-            <p>{{$t('a4')}}</p>
+            <h3>{{ $t("q4") }}</h3>
+            <p>{{ $t("a4") }}</p>
           </b-col>
           <b-col cols="12" md="4" sm="12">
-            <h3>{{$t('q5')}}</h3>
-            <p>{{$t('a5')}}</p>
+            <h3>{{ $t("q5") }}</h3>
+            <p>{{ $t("a5") }}</p>
           </b-col>
         </b-row>
       </b-container>
@@ -293,15 +305,18 @@
       <b-container>
         <b-row>
           <b-col>
-            <h2>{{$t('area')}}</h2>
-            <hr>
+            <h2>{{ $t("area") }}</h2>
+            <hr />
           </b-col>
         </b-row>
         <b-row>
           <b-col cols="12" md="6" sm="12">
             <b-img src="/img/zhonghua-logo.jpg" fluid />
             <h3 v-html="$t('area-01')"></h3>
-            <nuxt-link to="/">1100 Bethesda Side Rd, Whitchurch-Stouffville, ON L4A 7X5</nuxt-link>
+            <nuxt-link to="/"
+              >1100 Bethesda Side Rd, Whitchurch-Stouffville, ON L4A
+              7X5</nuxt-link
+            >
             <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
           </b-col>
           <b-col cols="12" md="6" sm="12">
@@ -338,80 +353,78 @@
         </b-row>
       </b-container>
     </section>
-        <no-ssr>
-        <Backtop />
+    <no-ssr>
+      <Backtop />
     </no-ssr>
     <Footer />
   </b-container>
 </template>
 
 <script>
-  import Nav from '~/components/Nav.vue'
-  import Form from '~/components/ContactForm.vue'
-  import Footer from '~/components/Footer.vue'
-  import Backtop from '~/components/BackToTop.vue'
+import Nav from "~/components/Nav.vue";
+import Form from "~/components/ContactForm.vue";
+import Footer from "~/components/Footer.vue";
+import Backtop from "~/components/BackToTop.vue";
 
-  export default {
-    components: {
-      Nav,
-      Footer,
-      Form,
-      Backtop
-    }
-  }
-
+export default {
+  components: {
+    Nav,
+    Footer,
+    Form,
+    Backtop,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-  .ser-1 {
-    background-image: url('/img/153.jpg');
-  }
+.ser-1 {
+  background-image: url("/img/service1.jpg");
+}
 
-  .ser-2 {
-    background-image: url('/img/153.jpg');
-  }
+.ser-2 {
+  background-image: url("/img/service2.jpg");
+}
 
-  .ser-3 {
-    background-image: url('/img/153.jpg');
-  }
+.ser-3 {
+  background-image: url("/img/service3.jpg");
+}
 
-  .ser-4 {
-    background-image: url('/img/153.jpg');
-  }
+.ser-4 {
+  background-image: url("/img/service4.jpg");
+}
 
-  .ser-5 {
-    background-image: url('/img/fire.jpeg');
-  }
+.ser-5 {
+  background-image: url("/img/fire.jpeg");
+}
 
-  .ser-6 {
-    background-image: url('/img/Chinese-Cemetery-Gardens.jpg');
-  }
+.ser-6 {
+  background-image: url("/img/Chinese-Cemetery-Gardens.jpg");
+}
 
-  .embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#servicearea {
+  img {
     border-radius: 10px;
-  }
-
-  .embed-container iframe,
-  .embed-container object,
-  .embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-
-#servicearea{
-  img{
-    border-radius:10px;
-    margin-bottom:25px;
-    width:120px;
+    margin-bottom: 25px;
+    width: 120px;
   }
   text-align: center;
 }
