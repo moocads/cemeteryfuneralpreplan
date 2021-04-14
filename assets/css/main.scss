@@ -430,3 +430,24 @@ h2{
     font-size: 13px;
 }
 }
+.topbar-inner {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .topbar-info-wrap img {
+    width: 20px;
+  }
+  .topbar-info-wrap a,
+  span {
+    color: #fff;
+  }
+  .topbar-info-wrap > span {
+    margin-right: 15px;
+  }
+  @media all and (max-width:1000px){
+      .topbar-inner{
+          flex-direction: row !important;
+      }
+  }

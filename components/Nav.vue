@@ -27,46 +27,51 @@
 }
 </i18n>
 <template>
-    <div style="position:fixed;width:100%;z-index:999999;">
+  <div style="position: fixed; width: 100%; z-index: 999999">
     <div class="topbar">
-       <b-navbar toggleable="lg" type="dark" variant="nav">
-       <b-navbar-nav class="ml-auto">
-        <!-- <b-nav-item :href="switchLocalePath('en')">En</b-nav-item> -->
-        <b-nav-item :href="switchLocalePath('zh')">简</b-nav-item>
-        <b-nav-item :href="switchLocalePath('tc')">繁</b-nav-item>
-      </b-navbar-nav>
-       </b-navbar>
+      <b-navbar toggleable="lg" type="dark" variant="nav">
+        <b-navbar-nav class="topbar-inner">
+          <!-- <b-nav-item :href="switchLocalePath('en')">En</b-nav-item> -->
+          <div class="topbar-info-wrap">
+            <span>徐培康</span>
+            <img src="/img/phone2.svg" alt="" />
+            <a href="tel:+14167223453">416-722-3453</a>
+          </div>
+          <div>
+            <b-nav-item :href="switchLocalePath('zh')">简</b-nav-item>
+            <b-nav-item :href="switchLocalePath('tc')">繁</b-nav-item>
+          </div>
+        </b-navbar-nav>
+      </b-navbar>
     </div>
-  <b-navbar toggleable="lg" type="dark" variant="nav">
-
-    <b-navbar-brand> {{$t('name')}}</b-navbar-brand>
-    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-    <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav class="ml-auto">
-        <b-nav-item href="#about">{{$t('about')}}</b-nav-item>
-        <b-nav-item href="#service">{{$t('cf')}}</b-nav-item>
-        <b-nav-item href="#faq">{{$t('faq')}}</b-nav-item>
-        <b-nav-item href="#servicearea">{{$t('area')}}</b-nav-item>
-        <b-nav-item href="#contact">{{$t('contact')}}</b-nav-item>
-      </b-navbar-nav>
-    </b-collapse>
-  </b-navbar>
-</div>
+    <b-navbar toggleable="lg" type="dark" variant="nav">
+      <b-navbar-brand> {{ $t("name") }}</b-navbar-brand>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item href="#about">{{ $t("about") }}</b-nav-item>
+          <b-nav-item href="#service">{{ $t("cf") }}</b-nav-item>
+          <b-nav-item href="#faq">{{ $t("faq") }}</b-nav-item>
+          <b-nav-item href="#servicearea">{{ $t("area") }}</b-nav-item>
+          <b-nav-item href="#contact">{{ $t("contact") }}</b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+  </div>
 </template>
 
 <script>
 export default {
-methods: {
-  scrollMeTo(refName) {
-    var element = this.$refs[refName];
-    var top = element.offsetTop;
+  methods: {
+    scrollMeTo(refName) {
+      var element = this.$refs[refName];
+      var top = element.offsetTop;
 
-    window.scrollTo(0, top);
-  }
-}
-}
+      window.scrollTo(0, top);
+    },
+  },
+};
 </script>
 
-<style>
-
+<style >
 </style>
