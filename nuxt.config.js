@@ -55,11 +55,6 @@ export default {
         vueI18nLoader: true,
         locales: [
           {
-            code: 'en',
-            iso: 'en-US',
-            name: 'EN',
-          },
-          {
             code: 'zh',
             iso: 'zh-CN',
             name: 'ZH'
@@ -71,12 +66,12 @@ export default {
           }
         ],
         defaultLocale: 'zh',
-        // detectBrowserLanguage: {
-        //   useCookie: false,
-        //   cookieKey: 'i18n_redirected',
-        //   alwaysRedirect: false,
-        //   fallbackLocale: 'en'
-        // }
+        detectBrowserLanguage: {
+          useCookie: false,
+          cookieKey: 'i18n_redirected',
+          alwaysRedirect: false,
+          fallbackLocale: 'zh'
+        }
       }
     ],
   ],
