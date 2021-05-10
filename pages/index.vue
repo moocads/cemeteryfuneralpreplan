@@ -213,8 +213,11 @@
               <p>{{ $t("intro01") }}</p>
               <p>{{ $t("intro02") }}</p>
               <p>{{ $t("intro03") }}</p>
-              <br />
               <!-- <a href="#contact" class="green-btn">{{$t('contact')}}</a> -->
+              <small>
+                BAO Consumer Information Guide:<br />
+                https://thebao.ca/for-consumers/consumer-information-guide/
+              </small>
             </div>
           </b-col>
         </b-row>
