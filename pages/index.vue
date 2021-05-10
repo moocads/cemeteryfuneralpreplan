@@ -205,6 +205,10 @@
                 </div>
               </b-col>
             </b-row>
+            <small style="color: #b8b8b8">
+              BAO Consumer Information Guide:<br />
+              https://thebao.ca/for-consumers/consumer-information-guide/
+            </small>
           </b-col>
           <b-col cols="12" md="6" sm="12">
             <div class="pointer">
@@ -214,10 +218,6 @@
               <p>{{ $t("intro02") }}</p>
               <p>{{ $t("intro03") }}</p>
               <!-- <a href="#contact" class="green-btn">{{$t('contact')}}</a> -->
-              <small>
-                BAO Consumer Information Guide:<br />
-                https://thebao.ca/for-consumers/consumer-information-guide/
-              </small>
             </div>
           </b-col>
         </b-row>
