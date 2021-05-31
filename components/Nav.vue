@@ -35,7 +35,11 @@
           <div class="topbar-info-wrap">
             <span>徐培康</span>
             <img src="/img/phone2.svg" alt="" />
-            <a href="tel:+14167223453">416-722-3453</a>
+            <a
+              onclick="return gtag_report_conversion('tel:416-722-3453')"
+              href="tel:+14167223453"
+              >416-722-3453</a
+            >
           </div>
           <div>
             <b-nav-item :href="switchLocalePath('zh')">简</b-nav-item>
@@ -68,10 +72,9 @@ export default {
       var top = element.offsetTop;
 
       window.scrollTo(0, top);
-    },
-  },
+    }
+  }
 };
 </script>
 
-<style >
-</style>
+<style></style>

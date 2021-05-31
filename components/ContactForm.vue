@@ -52,64 +52,111 @@
 </i18n>
 <template>
   <div class="main-form">
-    <div class="note">{{$t('note')}}</div>
-    <b-form v-if="show" class="js-cm-form" id="subForm"
-     action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E90561955BC9328E134A137DCF758886A84EAD6C6EE58A8A12A307FD7D5A686648C5DF0D8A20F09155F03E8C6E986C1B0ADCC99">
+    <div class="note">{{ $t("note") }}</div>
+    <b-form
+      v-if="show"
+      class="js-cm-form"
+      id="subForm"
+      action="https://www.createsend.com/t/subscribeerror?description="
+      method="post"
+      data-id="2BE4EF332AA2E32596E38B640E90561955BC9328E134A137DCF758886A84EAD6C6EE58A8A12A307FD7D5A686648C5DF0D8A20F09155F03E8C6E986C1B0ADCC99"
+    >
       <b-row>
         <b-col>
-
-          <b-form-group id="input-group-2"  class="mandatory">
-              <template v-slot:label>
-    {{$t('firstn')}}<span class="text-danger">*</span>
-  </template>
-            <b-form-input id="fieldjdtiujd" maxlength="200" name="cm-f-jdtiujd" required placeholder="Enter first name">
+          <b-form-group id="input-group-2" class="mandatory">
+            <template v-slot:label>
+              {{ $t("firstn") }}<span class="text-danger">*</span>
+            </template>
+            <b-form-input
+              id="fieldjdtiujd"
+              maxlength="200"
+              name="cm-f-jdtiujd"
+              required
+              placeholder="Enter first name"
+            >
             </b-form-input>
           </b-form-group>
         </b-col>
         <b-col>
           <b-form-group id="input-group-2">
-                          <template v-slot:label>
-    {{$t('lastn')}}<span class="text-danger">*</span>
-  </template>
-            <b-form-input   id="fieldjdtiujh" maxlength="200" name="cm-f-jdtiujh" required placeholder="Enter last name"></b-form-input>
+            <template v-slot:label>
+              {{ $t("lastn") }}<span class="text-danger">*</span>
+            </template>
+            <b-form-input
+              id="fieldjdtiujh"
+              maxlength="200"
+              name="cm-f-jdtiujh"
+              required
+              placeholder="Enter last name"
+            ></b-form-input>
           </b-form-group>
         </b-col>
       </b-row>
-      <b-form-group id="input-group-1" description="We'll never share your email with anyone else.">
-    <template v-slot:label>
-    {{$t('email')}}<span class="text-danger">*</span>
-  </template>
-        <b-form-input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-jrlruiu-jrlruiu" type="email" required placeholder="Enter email"></b-form-input>
+      <b-form-group
+        id="input-group-1"
+        description="We'll never share your email with anyone else."
+      >
+        <template v-slot:label>
+          {{ $t("email") }}<span class="text-danger">*</span>
+        </template>
+        <b-form-input
+          autocomplete="Email"
+          aria-label="Email"
+          class="js-cm-email-input qa-input-email"
+          id="fieldEmail"
+          maxlength="200"
+          name="cm-jrlruiu-jrlruiu"
+          type="email"
+          required
+          placeholder="Enter email"
+        ></b-form-input>
       </b-form-group>
 
       <b-form-group id="input-group-2">
-      <template v-slot:label>
-    {{$t('phone')}}<span class="text-danger">*</span>
-  </template>
-        <b-form-input id="fieldjdtiujk" maxlength="200" name="cm-f-jdtiujk" required placeholder="Phone number"></b-form-input>
+        <template v-slot:label>
+          {{ $t("phone") }}<span class="text-danger">*</span>
+        </template>
+        <b-form-input
+          id="fieldjdtiujk"
+          maxlength="200"
+          name="cm-f-jdtiujk"
+          required
+          placeholder="Phone number"
+        ></b-form-input>
       </b-form-group>
 
-
-      <b-form-group >
+      <b-form-group>
         <template v-slot:label>
-    {{$t('ser')}}<span class="text-danger">*</span>
-  </template>
+          {{ $t("ser") }}<span class="text-danger">*</span>
+        </template>
         <b-form-select id="fieldjdtiutl" name="cm-fo-jdtiutl" value="" required>
-          <option value="">{{$t('select')}}</option>
-          <option value="3142400">{{$t('ser01')}}</option>
-          <option value="3142401">{{$t('ser02')}}</option>
-          <option value="3142402">{{$t('ser03')}}</option>
-          <option value="3142403">{{$t('ser04')}}</option>
-          <option value="3142404">{{$t('ser05')}}</option>
-          <option value="3142405">{{$t('ser06')}}</option>
+          <option value="">{{ $t("select") }}</option>
+          <option value="3142400">{{ $t("ser01") }}</option>
+          <option value="3142401">{{ $t("ser02") }}</option>
+          <option value="3142402">{{ $t("ser03") }}</option>
+          <option value="3142403">{{ $t("ser04") }}</option>
+          <option value="3142404">{{ $t("ser05") }}</option>
+          <option value="3142405">{{ $t("ser06") }}</option>
         </b-form-select>
       </b-form-group>
-      <b-form-textarea  id="fieldjdtiuju" name="cm-f-jdtiuju" placeholder="Send us your message ..." rows="3" max-rows="6">
+      <b-form-textarea
+        id="fieldjdtiuju"
+        name="cm-f-jdtiuju"
+        placeholder="Send us your message ..."
+        rows="3"
+        max-rows="6"
+      >
       </b-form-textarea>
-      <br>
+      <br />
       <b-row>
         <b-col>
-          <b-button type="submit" variant="primary" class="sub-btn">{{$t('sub')}}</b-button>
+          <b-button
+            onclick="return gtag_report_conversion('tel:416-722-3453')"
+            type="submit"
+            variant="primary"
+            class="sub-btn"
+            >{{ $t("sub") }}</b-button
+          >
         </b-col>
         <!-- <b-col>
                    <b-button type="reset"  class="sub-btn">Reset</b-button>
@@ -119,26 +166,21 @@
   </div>
 </template>
 
-
-
 <script>
-  export default {
-    data() {
-      return {
-        show: true
-      }
-    }
+export default {
+  data() {
+    return {
+      show: true
+    };
   }
-
+};
 </script>
 
 <style lang="scss" scoped>
-
-
-.mandatory{
-  label::after{
-    content:'*';
-    color:red;
+.mandatory {
+  label::after {
+    content: "*";
+    color: red;
   }
 }
 </style>

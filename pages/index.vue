@@ -191,7 +191,11 @@
                 <div class="info-pad">
                   <br />
                   <h3 v-html="$t('henry')"></h3>
-                  <a href="tel:1-416-722-3453">416-722-3453</a>
+                  <a
+                    onclick="return gtag_report_conversion('tel:416-722-3453')"
+                    href="tel:1-416-722-3453"
+                    >416-722-3453</a
+                  >
                   <p>{{ $t("lang") }}</p>
                   <b-img
                     src="/img/henry-qrcode.png"
@@ -459,8 +463,8 @@ export default {
     Nav,
     Footer,
     Form,
-    Backtop,
-  },
+    Backtop
+  }
 };
 </script>
 
