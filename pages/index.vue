@@ -202,17 +202,29 @@
                     class="wechat-qrcode"
                     fluid
                   />
-
+                  <br />
+                  <small>
+                    Cemetery Sales Licence No.: 4733885
+                  </small>
+                  <br />
+                  <small>
+                    Funeral Pre-Planner Licence No.: 303486
+                  </small>
                   <div class="license">
                     {{ $t("intro") }}
                   </div>
                 </div>
               </b-col>
             </b-row>
-            <small style="color: #b8b8b8">
-              BAO Consumer Information Guide:<br />
-              https://thebao.ca/for-consumers/consumer-information-guide/
-            </small>
+            <a
+              href="https://thebao.ca/for-consumers/consumer-information-guide/"
+              target="_blank"
+            >
+              <small style="color: #333">
+                BAO Consumer Information Guide:<br />
+                https://thebao.ca/for-consumers/consumer-information-guide/
+              </small></a
+            >
           </b-col>
           <b-col cols="12" md="6" sm="12">
             <div class="pointer">

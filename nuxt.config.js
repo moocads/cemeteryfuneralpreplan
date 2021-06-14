@@ -14,7 +14,14 @@ export default {
         content: "预置墓园及殡葬服务，土葬服务，骨灰安葬服务"
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      {
+        rel: "stylesheet",
+        href:
+          "https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+      }
+    ],
     script: [
       {
         src: "https://www.googletagmanager.com/gtag/js?id=UA-197873382-1",
@@ -24,6 +31,18 @@ export default {
         src:
           "https://js.createsend1.com/javascript/copypastesubscribeformlogic.js",
         type: "text/javascript"
+      },
+      {
+        src:
+          "https://js.createsend1.com/javascript/copypastesubscribeformlogic.js",
+        type: "text/javascript"
+      },
+      {
+        src: "https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"
+      },
+      {
+        src:
+          "https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"
       }
     ]
   },

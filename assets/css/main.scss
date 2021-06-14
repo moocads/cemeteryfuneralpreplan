@@ -32,6 +32,11 @@ section{
     font-size:25px;
     color:$green;
 }
+@media all and (max-width: 768px) {
+    .navbar-brand {
+      font-size: 20px;
+    }
+  }
 .navbar-brand:hover{color:$green;}
 .navbar-nav .nav-link {
     color:$green;
