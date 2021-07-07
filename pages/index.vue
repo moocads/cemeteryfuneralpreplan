@@ -59,6 +59,7 @@
   "ser04":"室内骨灰位",
   "ser05":"殡仪及火化服务",
   "ser06":"室外骨灰位",
+  "ser07":"双/单人骨灰位",
   "faq":"常见问题",
   "q1":"1. 墓地需要支付地税吗？",
   "a1":"不需要，墓地是没有地税的。",
@@ -109,6 +110,7 @@
   "ser04":"室內骨灰位",
   "ser05":"殯儀火葬服務",
   "ser06":"室外骨灰位",
+  "ser07":"雙/單人骨灰位",
   "faq":"常見問題",
   "q1":"1. 墓地需要支付地稅嗎？",
   "a1":"不需要，墓地是沒有地稅的",
@@ -307,6 +309,11 @@
               <h3>{{ $t("ser06") }}</h3>
             </div>
           </b-col>
+          <b-col cols="12" md="3" sm="12" data-aos="fade-up">
+            <div class="service-img ser-6">
+              <h3>{{ $t("ser07") }}</h3>
+            </div>
+          </b-col>
           <!-- <b-col cols="12" md="4" sm="12" data-aos="fade-up" data-aos-delay="700">
             <div class="service-img ser-5">
               <h3>{{$t('ser05')}}</h3>
@@ -498,6 +505,9 @@ export default {
 }
 .ser-5 {
   background-image: url("/img/service5.jpg");
+}
+.ser-6 {
+  background-image: url("/img/service6.jpg");
 }
 // .ser-5 {
 //   background-image: url("/img/fire.jpeg");
