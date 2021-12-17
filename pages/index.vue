@@ -35,7 +35,8 @@
   "q5":"If the deceased is not a Canadian resident, can he/she be buried Canada?",
   "a5":"Yes.",
   "area-01":"Richmond Hill Cemetery",
-  "area-02":"Chapel Ridge Funeral Home"
+  "area-02":"Chapel Ridge Funeral Home",
+  "gallery-title":"Gallery"
   },
   "zh":{
   "slogan":"专业一站式服务<br>令您及家人安枕无忧",
@@ -86,7 +87,8 @@
   "fengshui-subtitle4":"明堂开阔的原则：",
   "fengshui-subtext-b-4":"上佳墓地另一个原则是名堂开阔有利于孕育人才，发展事业，大展鸿图之象。事实上明堂宽大明亮代表的是人民心胸开阔能包容，且有远大志向。墓穴前方有一片广阔年整的地方，生机勃勃，才能前途无量。所以墓地不宜没在窄小局限的山各。",
   "fengshui-subtitle5":"回归自然的原则：",
-  "fengshui-subtext-b-5":"阴宅风水与阳宅风水选择恰恰相反。阴宅讲求宁静自然，山清水秀，风光秀丽的天人合一，才是仙人理想的人生后花园。而且是后人瞻仰仙人及享受自然的殿堂。阴宅风水将就安静，山环水抱，藏风聚气之局。"
+  "fengshui-subtext-b-5":"阴宅风水与阳宅风水选择恰恰相反。阴宅讲求宁静自然，山清水秀，风光秀丽的天人合一，才是仙人理想的人生后花园。而且是后人瞻仰仙人及享受自然的殿堂。阴宅风水将就安静，山环水抱，藏风聚气之局。",
+  "gallery-title":"图片展示"
   },
   "tc":{
   "slogan":"專業一站式服務<br>令您及家人安枕無憂",
@@ -137,7 +139,8 @@
   "fengshui-subtitle4":"明堂開闊的原則：",
   "fengshui-subtext-b-4":"上佳墓地另一個原則是名堂開闊有利於孕育人才，發展事業，大展鴻圖之象。事實上明堂寬大明亮代表的是人民心胸開闊能包容，且有遠大誌向。墓穴前方有一片廣闊年整的地方，生機勃勃，才能前途無量。所以墓地不宜沒在窄小局限的山各。",
   "fengshui-subtitle5":"回歸自然的原則：",
-  "fengshui-subtext-b-5":"陰宅風水與陽宅風水選擇恰恰相反。陰宅講求寧靜自然，山清水秀，風光秀麗的天人合一，才是仙人理想的人生後花園。而且是後人瞻仰仙人及享受自然的殿堂。陰宅風水將就安靜，山環水抱，藏風聚氣之局。"
+  "fengshui-subtext-b-5":"陰宅風水與陽宅風水選擇恰恰相反。陰宅講求寧靜自然，山清水秀，風光秀麗的天人合一，才是仙人理想的人生後花園。而且是後人瞻仰仙人及享受自然的殿堂。陰宅風水將就安靜，山環水抱，藏風聚氣之局。",
+  "gallery-title":"圖片展示"
   }
   }
 </i18n>
@@ -359,6 +362,22 @@
         </b-row>
       </b-container>
     </section>
+    <section id="gallery-sec">
+      <b-container>
+        <h2>{{ $t("gallery-title") }}</h2>
+        <hr />
+        <b-row>
+          <b-col v-for="(img, index) in gallery" :key="index" md="3">
+            <figure>
+              <a :href="img.url" data-fancybox>
+                <img :src="img.url" alt="" />
+              </a>
+            </figure>
+            <!-- <b-img fluid :src="img.url"> </b-img> -->
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
     <section id="servicearea">
       <b-container>
         <b-row>
@@ -478,6 +497,11 @@ import Footer from "~/components/Footer.vue";
 import Backtop from "~/components/BackToTop.vue";
 
 export default {
+  data() {
+    return {
+      gallery
+    };
+  },
   components: {
     Nav,
     Footer,
@@ -485,6 +509,14 @@ export default {
     Backtop
   }
 };
+const gallery = [
+  {
+    url: "/img/gallery/gallery1.jpeg"
+  },
+  {
+    url: "/img/gallery/gallery2.jpeg"
+  }
+];
 </script>
 
 <style lang="scss" scoped>
@@ -589,6 +621,13 @@ export default {
   .card-text {
     color: #919191;
     font-size: 14px;
+  }
+}
+#gallery-sec {
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
   }
 }
 </style>
