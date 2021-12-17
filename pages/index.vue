@@ -282,7 +282,7 @@
       <b-container>
         <b-row>
           <b-col>
-            <h2>{{ $t("ser") }}</h2>
+            <h2 style="text-align:center">{{ $t("ser") }}</h2>
             <hr />
           </b-col>
         </b-row>
@@ -334,7 +334,7 @@
       <b-container>
         <b-row>
           <b-col>
-            <h2>{{ $t("faq") }}</h2>
+            <h2 style="text-align:center">{{ $t("faq") }}</h2>
             <hr />
           </b-col>
         </b-row>
@@ -364,7 +364,7 @@
     </section>
     <section id="gallery-sec">
       <b-container>
-        <h2>{{ $t("gallery-title") }}</h2>
+        <h2 style="text-align:center">{{ $t("gallery-title") }}</h2>
         <hr />
         <b-row>
           <b-col v-for="(img, index) in gallery" :key="index" md="3">
