@@ -511,10 +511,10 @@ export default {
 };
 const gallery = [
   {
-    url: "/img/gallery/gallery1.jpeg"
+    url: "/img/gallery/gallery1.jpg"
   },
   {
-    url: "/img/gallery/gallery2.jpeg"
+    url: "/img/gallery/gallery2.jpg"
   }
 ];
 </script>
