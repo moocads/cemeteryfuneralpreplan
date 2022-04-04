@@ -3,7 +3,7 @@
   "en":{
   "slogan":"One stop shopping<br>A peace of mind for you and your family",
   "his":"Company History",
-  "intro":"Licensed Cemetery and Pre-Planning Funeral Director",
+  "intro":"Licensed Pre-Planning Funeral Director",
   "intro01":"Under our professional one-stop service, we are committed to providing a peaceful and permanent resting place for your loved ones. The passing of a life is not the end.  We strive to lead the way, with a wide variety of choices to memorialize a life. We will work closely with you, and your loved ones to provide the option that best reflects your needs and preferences.",
   "intro02":"Pre-purchasing cemetery and funeral services requires well thought out planning in order to make the most informed decisions. Therefore, we are here to provide you with a free, detailed consultation to best suit your needs. The combination of professional and sincere services allows you to purchase the most suitable arrangements without unnecessary hassle or worry.",
   "intro03":"One-stop service includes cemetery, funeral and cremation arrangements. We have served multicultural communities with a focus on the Chinese community for many years, and have extensive experience to understand your needs. We are trusted and appreciated by many families within our community to provide the best services to help you make the decisions that matter. You will not go wrong in choosing our services. ",
@@ -40,7 +40,7 @@
   },
   "zh":{
   "slogan":"专业一站式服务<br>令您及家人安枕无忧",
-  "intro":"安省持牌墓园及预置殡葬顾问",
+  "intro":"安省持牌预置殡葬顾问",
   "his":"公司历史",
   "intro01":"我们公司致力于提供一个宁静而得以永久安息之地。让生命的消逝不是终点，使家属亲友们彼此对先人的思念得以慰藉，家庭文化和传统得以传承。",
   "intro02":"预先购买墓地和葬礼需要深思熟虑的决定，因此在你需要的时候，我们乐于为你提供详尽咨询，专业真诚的服务与加拿大多元文化相结合，让你做出最合适的安排，毫无后顾之忧。一站式服务包括墓地，骨灰位，葬礼以及火化的各类安排。",
@@ -94,7 +94,7 @@
   "slogan":"專業一站式服務<br>令您及家人安枕無憂",
     "his":"公司歷史",
   "contact":"聯絡我們",
-  "intro":"安省持牌墓園及預置殯葬顧問",
+  "intro":"安省持牌預置殯葬顧問",
   "intro01":"我們公司的墓園致力於提供一個寧靜而得以永久安息之地。讓生命的消逝不是終點，使家屬親友們彼此對先人的思念得以慰藉，家庭文化和傳統得以傳承。",
   "intro02":"預先購買墓地和葬禮需要深思熟慮的決定，因此在你需要的時候，我們樂於為你提供詳盡諮詢，專業真誠的服務與加拿大多元文化相結合，讓你做出最合適的安排，毫無後顧之憂。一站式服務包括墓地，骨灰位，葬禮以及火化的各類安排。",
   "intro03":"我們服務華人社區多年，具有豐富經驗，了解你的需要，全程陪同指引，以真摯溫情服務受到客戶的信任及讚賞。選擇我們的服務等於選擇明智、完美的承諾！",
@@ -208,10 +208,10 @@
                     fluid
                   />
                   <br />
-                  <small>
+                  <!-- <small>
                     Cemetery Sales Licence No.: 4733885
-                  </small>
-                  <br />
+                  </small> -->
+                  <!-- <br /> -->
                   <small>
                     Funeral Pre-Planner Licence No.: 303486
                   </small>

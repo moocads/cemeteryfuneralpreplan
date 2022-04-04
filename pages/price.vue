@@ -50,7 +50,7 @@
               <!-- <b-img fluid :src="img.url"> </b-img> -->
             </b-col>
           </b-row>
-          <h1>{{ $t("cemetery") }}</h1>
+          <!-- <h1>{{ $t("cemetery") }}</h1>
           <b-row>
             <b-col
               v-for="(imgCemetery, index) in cemeteries"
@@ -62,9 +62,8 @@
                   <img :src="imgCemetery.url" :alt="imgCemetery.alt" />
                 </a>
               </figure>
-              <!-- <b-img fluid :src="img.url"> </b-img> -->
             </b-col>
-          </b-row>
+          </b-row> -->
         </b-container>
       </section>
     </b-container>
