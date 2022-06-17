@@ -68,7 +68,7 @@
               />
               <br />
               <a
-                href="/img/docs/CR-april-2022-price-list-4722.pdf"
+                href="/img/docs/CR-april-2022-price-list-47222.pdf"
                 target="_blank"
                 >Chapel Ridge April 2022 Price List</a
               >
