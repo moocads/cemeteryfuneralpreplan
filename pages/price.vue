@@ -7,7 +7,9 @@
   "contact":"联系我们",
   "huayu-phone":"华语热线",
   "funeral-home":"殡仪馆",
-  "cemetery":"墓园"
+  "cemetery":"墓园",
+  "price-list":"预置墓园 & 殡葬服务价目表",
+  "click":"点击查看文件"
   },
   "tc":{
   "slogan":"專業一站式服務<br>令您及家人安枕無憂",
@@ -15,7 +17,9 @@
   "contact":"聯絡我們",
   "huayu-phone":"華語熱線",
   "funeral-home":"殯儀館",
-  "cemetery":"墓園"
+  "cemetery":"墓園",
+  "price-list":"預置墓園 & 殯葬服務价目表",
+  "click":"點擊查看文件"
   }
   }
 </i18n>
@@ -39,31 +43,48 @@
       <br />
       <section id="price-lists-wrap">
         <b-container>
-          <h1>{{ $t("funeral-home") }}</h1>
-          <b-row>
+          <!-- <h1>{{ $t("funeral-home") }}</h1> -->
+          <!-- <b-row>
             <b-col v-for="(img, index) in priceLists" :key="index" md="3">
               <figure>
                 <a :href="img.url" data-fancybox>
                   <img :src="img.url" :alt="img.alt" />
                 </a>
               </figure>
-              <!-- <b-img fluid :src="img.url"> </b-img> -->
-            </b-col>
-          </b-row>
-          <!-- <h1>{{ $t("cemetery") }}</h1>
-          <b-row>
-            <b-col
-              v-for="(imgCemetery, index) in cemeteries"
-              :key="index"
-              md="3"
-            >
-              <figure>
-                <a :href="imgCemetery.url" data-fancybox>
-                  <img :src="imgCemetery.url" :alt="imgCemetery.alt" />
-                </a>
-              </figure>
             </b-col>
           </b-row> -->
+          <b-row>
+            <b-col>
+              <h1>{{ $t("price-list") }}</h1>
+              <h2>{{ $t("click") }}</h2>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col class="price-item">
+              <img
+                src="/img/docs/CR-april-2022-price-list-4722.jpg"
+                alt=""
+                class="price-img"
+              />
+              <br />
+              <a
+                href="/img/docs/CR-april-2022-price-list-4722.pdf"
+                target="_blank"
+                >Chapel Ridge April 2022 Price List</a
+              >
+            </b-col>
+            <b-col class="price-item">
+              <img
+                src="/img/docs/RHC-2022-price-list.jpg"
+                alt=""
+                class="price-img"
+              />
+              <br />
+              <a href="/img/docs/RHC-2022-price-list.pdf" target="_blank"
+                >Richmond Hill Cemetery Inc. Price List</a
+              >
+            </b-col>
+          </b-row>
         </b-container>
       </section>
     </b-container>
@@ -270,7 +291,13 @@ export default {
     font-weight: 700;
     font-size: 28px;
     color: $green;
-    margin: 50px auto;
+    margin: 50px auto 10px;
+  }
+  h2 {
+    font-size: 18px;
+    color: #7c7c7c;
+    text-decoration: none;
+    margin-bottom: 40px;
   }
 }
 .header-phone-number {
@@ -300,20 +327,35 @@ figure {
     }
   }
 }
-@media all and (max-width: 768px) {
-  .header-phone-number {
-    font-size: 18px;
-    span {
-      font-size: 1.4em;
-    }
-  }
-}
+
 @media all and (max-width: 768px) {
   .header-phone-number {
     font-size: 14px;
     span {
       font-size: 1.4em;
     }
+  }
+  #price-lists-wrap {
+    h1 {
+      font-size: 18px;
+    }
+    h2 {
+      font-size: 14px;
+    }
+  }
+}
+.price-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  img {
+    max-width: 300px;
+  }
+  a {
+    font-size: 16px;
+    color: $green;
   }
 }
 </style>

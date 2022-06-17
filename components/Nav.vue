@@ -10,20 +10,22 @@
   },
   "zh":{
     "name":"多伦多预置墓园及殡葬服务",
-        "home":"首页",
-    "price-list":"价目表",
-      "about":"关于我们",
-       "cf":"我们的服务",
-       "faq":"常见问题",
-       "area":"服务地区",
-       "contact":"联系我们"
+    "home":"首页",
+    "price-list":"预置墓园 & 殡葬服务价目表",
+    "guide":"安省后事处理指南",
+    "about":"关于我们",
+    "cf":"我们的服务",
+    "faq":"常见问题",
+    "area":"服务地区",
+    "contact":"联系我们"
       },
   "tc":{
     "name":"多倫多預置墓園及殯葬服務",
-        "home":"首頁",
-    "price-list":"價目表",
-      "about":"關於我們",
-       "cf":"我們的服務",
+    "home":"首頁",
+    "price-list":"預置墓園 & 殯葬服務价目表",
+    "guide":"安省後事處理指南",
+    "about":"關於我們",
+    "cf":"我們的服務",
        "faq":"常見問題",
        "area":"服務地區",
        "contact":"聯絡我們"
@@ -47,6 +49,12 @@
             <nuxt-link :to="localePath('price')" class="price-list-link">{{
               $t("price-list")
             }}</nuxt-link>
+            <a
+              href="/img/docs/BAO-consumer-info-april-2021.pdf"
+              target="_blank"
+              class="price-list-link"
+              >{{ $t("guide") }}</a
+            >
           </div>
           <div>
             <b-nav-item :href="switchLocalePath('zh')">简</b-nav-item>
@@ -89,6 +97,22 @@
               $t("contact")
             }}</nuxt-link>
           </b-nav-item>
+          <b-nav-item class="display-sm">
+            <nuxt-link :to="localePath('price')">{{
+              $t("price-list")
+            }}</nuxt-link>
+          </b-nav-item>
+          <b-nav-item
+            class="display-sm"
+            href="/img/docs/BAO-consumer-info-april-2021.pdf"
+            target="_blank"
+          >
+            <a
+              href="/img/docs/BAO-consumer-info-april-2021.pdf"
+              target="_blank"
+              >{{ $t("guide") }}</a
+            >
+          </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -128,6 +152,17 @@ export default {
   &:hover {
     background-color: #fff;
     color: $green;
+  }
+}
+.display-sm {
+  display: none;
+}
+@media all and (max-width: 768px) {
+  .price-list-link {
+    display: none;
+  }
+  .display-sm {
+    display: block;
   }
 }
 </style>
