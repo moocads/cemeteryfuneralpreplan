@@ -22,7 +22,7 @@
   "tc":{
     "name":"多倫多預置墓園及殯葬服務",
     "home":"首頁",
-    "price-list":"預置墓園 & 殯葬服務价目表",
+    "price-list":"預置墓園 & 殯葬服務價目表",
     "guide":"安省後事處理指南",
     "about":"關於我們",
     "cf":"我們的服務",
@@ -149,6 +149,7 @@ export default {
   border-radius: 15px;
   border: 1px solid #fff;
   transition: all 0.4s ease;
+  margin-left: 16px;
   &:hover {
     background-color: #fff;
     color: $green;

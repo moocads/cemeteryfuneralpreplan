@@ -146,7 +146,6 @@
 </i18n>
 <template>
   <b-container fluid>
-    <Nav />
     <div class="top-banner">
       <div class="text-area">
         <h1 v-html="$t('slogan')"></h1>
@@ -482,7 +481,6 @@
 </template>
 
 <script>
-import Nav from "~/components/Nav.vue";
 import Form from "~/components/ContactForm.vue";
 import Footer from "~/components/Footer.vue";
 import Backtop from "~/components/BackToTop.vue";
@@ -494,7 +492,6 @@ export default {
     };
   },
   components: {
-    Nav,
     Footer,
     Form,
     Backtop
