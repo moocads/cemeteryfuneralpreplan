@@ -66,28 +66,31 @@
           </b-row>
           <b-row>
             <b-col class="price-item">
-              <img
-                src="/img/docs/CR-april-2022-price-list-4722.jpg"
-                alt=""
-                class="price-img"
-              />
-              <br />
               <a
                 href="/img/docs/CR-april-2022-price-list-47222.pdf"
                 target="_blank"
-                >Chapel Ridge April 2022 Price List</a
               >
+                <img
+                  src="/img/docs/CR-april-2022-price-list-4722.jpg"
+                  alt=""
+                  class="price-img"
+                />
+                <br />
+                <br />
+                Chapel Ridge April 2022 Price List
+              </a>
             </b-col>
             <b-col class="price-item">
-              <img
-                src="/img/docs/RHC-2022-price-list.jpg"
-                alt=""
-                class="price-img"
-              />
-              <br />
-              <a href="/img/docs/RHC-2022-price-list.pdf" target="_blank"
-                >Richmond Hill Cemetery Inc. Price List</a
-              >
+              <a href="/img/docs/RHCI-updated.pdf" target="_blank">
+                <img
+                  src="/img/docs/RHCI-updated.jpg"
+                  alt=""
+                  class="price-img"
+                />
+                <br />
+                <br />
+                Richmond Hill Cemetery Inc. Price List
+              </a>
             </b-col>
           </b-row>
         </b-container>
