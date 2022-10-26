@@ -67,17 +67,17 @@
           <b-row>
             <b-col class="price-item">
               <a
-                href="/img/docs/CR-april-2022-price-list-47222.pdf"
+                href="/img/docs/CR-October-2022-Price-List.pdf"
                 target="_blank"
               >
                 <img
-                  src="/img/docs/CR-april-2022-price-list-4722.jpg"
+                  src="/img/docs/CR-October-2022-Price-List-cover.jpg"
                   alt=""
                   class="price-img"
                 />
                 <br />
                 <br />
-                Chapel Ridge April 2022 Price List
+                Chapel Ridge October 2022 Price List
               </a>
             </b-col>
             <b-col class="price-item">
