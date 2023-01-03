@@ -89,7 +89,7 @@
                 />
                 <br />
                 <br />
-                Richmond Hill Cemetery Package Price List.
+                Richmond Hill Cemetery Package Price List
               </a>
             </b-col>
             <b-col class="price-item">
