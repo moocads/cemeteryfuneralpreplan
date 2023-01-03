@@ -81,15 +81,27 @@
               </a>
             </b-col>
             <b-col class="price-item">
-              <a href="/img/docs/RHCI-updated.pdf" target="_blank">
+              <a href="/img/docs/RHC-price-list.pdf" target="_blank">
                 <img
-                  src="/img/docs/RHCI-updated.jpg"
+                  src="/img/docs/RHC-price-list.jpg"
                   alt=""
                   class="price-img"
                 />
                 <br />
                 <br />
-                Richmond Hill Cemetery Inc. Price List
+                Richmond Hill Cemetery Package Price List.
+              </a>
+            </b-col>
+            <b-col class="price-item">
+              <a href="/img/docs/RHC-price-list-2023.pdf" target="_blank">
+                <img
+                  src="/img/docs/RHC-price-list-2023.jpg"
+                  alt=""
+                  class="price-img"
+                />
+                <br />
+                <br />
+                Richmond Hill Cemetery Inc. Price List - 2023
               </a>
             </b-col>
           </b-row>
@@ -111,184 +123,184 @@ export default {
     Nav,
     Footer,
     Form,
-    Backtop
+    Backtop,
   },
   data() {
     return {
       priceLists: [
         {
           url: "/img/pricelists/binyi1.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi2.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi3.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi4.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi5.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi6.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi7.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi8.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi9.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi10.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi11.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi12.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi13.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi14.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi15.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi16.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi17.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi18.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi19.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi20.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi21.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi22.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi23.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi24.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi25.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi26.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi27.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi28.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi29.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi30.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi31.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi32.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi33.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi34.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi35.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/binyi36.png",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
-        }
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
+        },
       ],
       cemeteries: [
         {
           url: "/img/pricelists/cemetery1.jpg",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/cemetery2.jpg",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/cemetery3.jpg",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/cemetery4.jpg",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/cemetery5.jpg",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
         },
         {
           url: "/img/pricelists/cemetery6.jpg",
-          alt: "中华纪念园 | 多伦多墓园 | 价格表"
-        }
-      ]
+          alt: "中华纪念园 | 多伦多墓园 | 价格表",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
@@ -362,6 +374,10 @@ figure {
     max-width: 300px;
   }
   a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
     color: $green;
   }

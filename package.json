@@ -23,5 +23,8 @@
   },
   "devDependencies": {
     "sass-loader": "^10.0.2"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x"
   }
 }

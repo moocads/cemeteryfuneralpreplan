@@ -12,24 +12,28 @@
 }
 </i18n>
 <template>
-    <footer class="this-footer">
-        <small>2021 {{$t('name')}}</small>
-    </footer>
+  <footer class="this-footer">
+    <small> {{ year + $t("name") }}</small>
+  </footer>
 </template>
 
 <script>
 export default {
-
-}
+  data() {
+    return {
+      year: new Date().getFullYear(),
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-    .this-footer{
-        small{
-            color:#ffffff;
-            text-align: center;
-            margin:auto;
-            display:block;
-        }
-    }
+.this-footer {
+  small {
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+}
 </style>
