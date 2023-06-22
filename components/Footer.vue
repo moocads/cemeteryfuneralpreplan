@@ -13,7 +13,10 @@
 </i18n>
 <template>
   <footer class="this-footer">
-    <small> {{ year + $t("name") }}</small>
+    <small> © {{ year + ' ' + $t("name") }}</small>
+    <small><a href="https://www.moocads.com" target="_blank">
+    Powered by Mooc Creative Lab
+  </a></small>
   </footer>
 </template>
 
@@ -34,6 +37,10 @@ export default {
     text-align: center;
     margin: auto;
     display: block;
+  }
+  a{
+    color:#fff;
+    text-align: center;
   }
 }
 </style>
