@@ -14,8 +14,8 @@
 <template>
   <footer class="this-footer">
     <small> © {{ year + ' ' + $t("name") }}</small>
-    <small><a href="https://www.moocads.com" target="_blank">
-    Powered by Mooc Creative Lab
+    <small><a style="color:#498483;" href="https://www.moocads.com" target="_blank">
+    Designed by Mooc Creative Lab
   </a></small>
   </footer>
 </template>
