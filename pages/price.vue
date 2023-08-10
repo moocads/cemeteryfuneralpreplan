@@ -71,7 +71,7 @@
                 target="_blank"
               >
                 <img
-                  src="/img/docs/CR-October-2022-Price-List-cover.jpg"
+                  src="/img/docs/Price_List_2023_August_1-01.jpg"
                   alt=""
                   class="price-img"
                 />
