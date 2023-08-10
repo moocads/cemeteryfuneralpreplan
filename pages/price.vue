@@ -67,7 +67,7 @@
           <b-row>
             <b-col class="price-item">
               <a
-                href="/img/docs/CR-October-2022-Price-List.pdf"
+                href="/img/docs/Price_List_2023_August_2.pdf"
                 target="_blank"
               >
                 <img
@@ -77,7 +77,7 @@
                 />
                 <br />
                 <br />
-                Chapel Ridge October 2022 Price List
+                Chapel Ridge August 2023 Price List
               </a>
             </b-col>
             <b-col class="price-item">

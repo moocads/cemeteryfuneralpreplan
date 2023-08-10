@@ -389,13 +389,13 @@
               >1100 Bethesda Side Rd, Whitchurch-Stouffville, ON L4A
               7X5</nuxt-link
             >
-            <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
+            <a href="https://www.google.com/maps/place/Richmond+Hill+Cemetery+%E5%88%97%E6%B2%BB%E6%96%87%E5%B1%B1%E5%A2%93%E5%9B%AD+%7C+%E5%A4%A7%E5%A4%9A%E5%9C%B0%E5%8C%BA%E5%8D%8E%E4%BA%BA%E5%A2%93%E5%9B%AD/@43.9539255,-79.4194636,15z/data=!4m6!3m5!1s0x882ad53d768a031b:0xa463266eb5296892!8m2!3d43.9539255!4d-79.4194636!16s%2Fg%2F11jclqvrxn?entry=ttu" target="_blank" class="direction-btn">Direction</a>
           </b-col>
           <b-col cols="12" md="6" sm="12">
             <b-img src="/img/chapel-logo.jpg" fluid />
             <h3 v-html="$t('area-02')"></h3>
             <nuxt-link to="/">8911 Woodbine AveMarkham, ON L3R 5G1</nuxt-link>
-            <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
+              <a href="https://www.google.com/maps/place/Chapel+Ridge+Funeral+Home+%26+Cremation+Centre/@43.8598287,-79.3624629,17z/data=!4m15!1m8!3m7!1s0x89d4d4ddda021a1f:0xe0d1f35a36810baf!2s8911+Woodbine+Ave,+Markham,+ON+L3R+5G1!3b1!8m2!3d43.8598287!4d-79.359888!16s%2Fg%2F11c14ft682!3m5!1s0x89d4d4ddd289bda1:0xfe38c6e3da1eefad!8m2!3d43.8598007!4d-79.3600617!16s%2Fg%2F1tdr95b7?entry=ttu" target="_blank" class="direction-btn">Direction</a>
           </b-col>
           <!-- <b-col cols="12" md="3" sm="12">
             <h3 v-html="$t('area-01')"></h3>
