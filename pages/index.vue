@@ -148,7 +148,7 @@
 </i18n>
 <template>
   <b-container fluid>
-    <div class="top-banner">
+    <!-- <div class="top-banner">
       <div class="text-area">
         <h1 v-html="$t('slogan')"></h1>
         <nuxt-link to="#contact" class="general-btn">{{
@@ -159,8 +159,8 @@
         }}</nuxt-link>
       </div>
     </div>
-    <br />
-
+    <br /> -->
+    <IndexSlider/>
     <br />
     <section id="about">
       <b-container>
@@ -489,6 +489,7 @@
 import Form from "~/components/ContactForm.vue";
 import Footer from "~/components/Footer.vue";
 import Backtop from "~/components/BackToTop.vue";
+import IndexSlider from "~/components/IndexSlider.vue";
 
 export default {
   data() {
@@ -499,7 +500,7 @@ export default {
   components: {
     Footer,
     Form,
-    Backtop
+    IndexSlider
   }
 };
 const gallery = [
