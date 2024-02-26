@@ -67,17 +67,17 @@
           <b-row>
             <b-col class="price-item">
               <a
-                href="/img/docs/Price_List_2023_August_2.pdf"
+                href="/img/docs/pricelist-20240215.pdf"
                 target="_blank"
               >
                 <img
-                  src="/img/docs/Price_List_2023_August_1-01.jpg"
+                  src="/img/docs/pricelist-20240215.jpg"
                   alt=""
                   class="price-img"
                 />
                 <br />
                 <br />
-                Chapel Ridge August 2023 Price List
+                Chapel Ridge February 2024 Price List
               </a>
             </b-col>
             <b-col class="price-item">
