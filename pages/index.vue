@@ -217,7 +217,7 @@
                   </small>
                   <br />
                   <small>
-                    Funeral Director Licence No.: 303486
+                    Funeral Director Licence No.: 4753128
                   </small>
                   <div class="license">
                     {{ $t("intro") }}
