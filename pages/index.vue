@@ -211,10 +211,10 @@
                     class="wechat-qrcode"
                     fluid
                   />
-                  <br />
+                  <!-- <br />
                   <small>
                     Cemetery Sales Licence No.: 4733885
-                  </small>
+                  </small> -->
                   <br />
                   <small>
                     Funeral Director Licence No.: 4753128

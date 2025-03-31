@@ -8,7 +8,7 @@
   "huayu-phone":"华语热线",
   "funeral-home":"殡仪馆",
   "cemetery":"墓园",
-  "price-list":"预置墓园 & 殡葬服务价目表",
+  "price-list":"殡葬服务价目表",
   "price-list-btn":"查看价目表",
   "click":"点击查看文件"
   },
@@ -19,7 +19,7 @@
   "huayu-phone":"華語熱線",
   "funeral-home":"殯儀館",
   "cemetery":"墓園",
-  "price-list":"預置墓園 & 殯葬服務價目表",
+  "price-list":"殯葬服務價目表",
   "price-list-btn":"查看價目表",
   "click":"點擊查看文件"
   }

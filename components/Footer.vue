@@ -1,22 +1,22 @@
 <i18n>
 {
   "en":{
-    "name":"Pre-Plan Cemetery & Funeral"
+    "name":"Funeral"
   },
   "zh":{
-    "name":"预置墓园及殡葬服务"
+    "name":"殡葬服务"
       },
   "tc":{
-    "name":"預置墓園及殯葬服務"
+    "name":"殯葬服務"
   }
 }
 </i18n>
 <template>
   <footer class="this-footer">
     <small> © {{ year + ' ' + $t("name") }}</small>
-    <small><a style="color:#498483;" href="https://www.moocads.com" target="_blank">
+    <!-- <small><a style="color:#498483;" href="https://www.moocads.com" target="_blank">
     Designed by Mooc Creative Lab
-  </a></small>
+  </a></small> -->
   </footer>
 </template>
 
