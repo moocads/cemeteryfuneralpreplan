@@ -67,20 +67,20 @@
           <b-row>
             <b-col class="price-item">
               <a
-                href="/img/docs/pricelist-20240215.pdf"
+                href="/img/docs/Chapel-Ridge-Price-List-March-15-2025_Update-min.pdf"
                 target="_blank"
               >
                 <img
-                  src="/img/docs/pricelist-20240215.jpg"
+                  src="/img/docs/CR-October-2025-Price-List-cover.jpg"
                   alt=""
                   class="price-img"
                 />
                 <br />
                 <br />
-                Chapel Ridge February 2024 Price List
+                Chapel Ridge February 2025 Price List
               </a>
             </b-col>
-            <b-col class="price-item">
+            <!-- <b-col class="price-item">
               <a href="/img/docs/RHC-price-list.pdf" target="_blank">
                 <img
                   src="/img/docs/RHC-price-list.jpg"
@@ -91,8 +91,8 @@
                 <br />
                 Richmond Hill Cemetery Package Price List
               </a>
-            </b-col>
-            <b-col class="price-item">
+            </b-col> -->
+            <!-- <b-col class="price-item">
               <a href="/img/docs/RHC-price-list-2023.pdf" target="_blank">
                 <img
                   src="/img/docs/RHC-price-list-2023.jpg"
@@ -103,7 +103,7 @@
                 <br />
                 Richmond Hill Cemetery Inc. Price List - 2023
               </a>
-            </b-col>
+            </b-col> -->
           </b-row>
         </b-container>
       </section>
