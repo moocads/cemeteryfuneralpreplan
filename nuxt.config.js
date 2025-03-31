@@ -4,14 +4,14 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: "Pre-Plan Cemetery & Funeral | 预置墓园及殡葬服务",
+    title: "Pre-Plan Cemetery & Funeral | 多伦多殡葬服务",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: "预置墓园及殡葬服务，土葬服务，骨灰安葬服务"
+        content: "多伦多殡葬服务"
       }
     ],
     link: [

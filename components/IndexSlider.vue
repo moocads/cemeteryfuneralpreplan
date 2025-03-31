@@ -4,7 +4,7 @@
       id="carousel-1"
       v-model="slide1"
       :interval="4000"
-      indicators
+    
       fade
       background="#ababab"
       img-width="1024"
@@ -18,11 +18,11 @@
           img-src="/img/banner/1-cn.jpg"
         >
         </b-carousel-slide>
-        <b-carousel-slide
+        <!-- <b-carousel-slide
           img-height="660"
           img-src="/img/banner/2-cn.jpg"
         >
-        </b-carousel-slide>
+        </b-carousel-slide> -->
       </div>
       <div v-if="$i18n.locale === 'tc'" >
         <b-carousel-slide
@@ -30,11 +30,11 @@
           img-src="/img/banner/1-trd.jpg"
         >
         </b-carousel-slide>
-        <b-carousel-slide
+        <!-- <b-carousel-slide
           img-height="660"
           img-src="/img/banner/2-trd.jpg"
         >
-        </b-carousel-slide>
+        </b-carousel-slide> -->
       </div>
     </b-carousel>
     <b-carousel
@@ -55,11 +55,11 @@
           img-src="/img/banner/1-cn-mobile.jpg"
         >
         </b-carousel-slide>
-        <b-carousel-slide
+        <!-- <b-carousel-slide
           img-height="660"
           img-src="/img/banner/2-cn-mobile.jpg"
         >
-        </b-carousel-slide>
+        </b-carousel-slide> -->
       </div>
        <div v-if="$i18n.locale === 'tc'">
         <b-carousel-slide
@@ -67,11 +67,11 @@
           img-src="/img/banner/1-trd-mobile.jpg"
         >
         </b-carousel-slide>
-        <b-carousel-slide
+        <!-- <b-carousel-slide
           img-height="660"
           img-src="/img/banner/2-trd-mobile.jpg"
         >
-        </b-carousel-slide>
+        </b-carousel-slide> -->
       </div>
     </b-carousel>
   </div>

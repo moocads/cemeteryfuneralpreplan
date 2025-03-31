@@ -130,11 +130,11 @@
           {{ $t("ser") }}<span class="text-danger">*</span>
         </template>
         <b-form-select id="fieldjdtiutl" name="cm-fo-jdtiutl" value="" required>
-          <option value="">{{ $t("select") }}</option>
-          <option value="3142400">{{ $t("ser01") }}</option>
+          <option value="">{{ $t("ser05") }}</option>
+          <!-- <option value="3142400">{{ $t("ser01") }}</option>
           <option value="3142401">{{ $t("ser02") }}</option>
           <option value="3142402">{{ $t("ser03") }}</option>
-          <option value="3142403">{{ $t("ser04") }}</option>
+          <option value="3142403">{{ $t("ser04") }}</option> -->
           <option value="3142404">{{ $t("ser05") }}</option>
           <option value="3142405">{{ $t("ser06") }}</option>
         </b-form-select>

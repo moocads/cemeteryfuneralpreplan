@@ -40,17 +40,17 @@
   },
   "zh":{
   "slogan":"专业一站式服务<br>令您及家人安枕无忧",
-  "intro":"安省持牌墓园及预置殡葬顾问",
+  "intro":"安省持牌殡葬顾问",
   "his":"公司历史",
-  "intro01":"我们公司致力于提供一个宁静而得以永久安息之地。让生命的消逝不是终点，使家属亲友们彼此对先人的思念得以慰藉，家庭文化和传统得以传承。",
-  "intro02":"预先购买墓地和葬礼需要深思熟虑的决定，因此在你需要的时候，我们乐于为你提供详尽咨询，专业真诚的服务与加拿大多元文化相结合，让你做出最合适的安排，毫无后顾之忧。一站式服务包括墓地，骨灰位，葬礼以及火化的各类安排。",
+  "intro01":"我们公司致力于为每一个家庭提供专业的殡仪服务，帮助您在告别亲人的时刻感受到温暖与慰藉。生命的消逝不是终点，而是对逝者美好回忆的延续。我们希望通过细致入微的服务，让家属亲友的思念得以安放，家庭的文化与传统得以传承。",
+  "intro02":"在您需要的时候，我们乐于提供详尽的咨询与支持，以专业、真诚的态度为您量身定制最合适的告别仪式。我们的服务尊重加拿大的多元文化背景，确保每一个细节都符合您的期望与需求。",
   "intro03":"我们服务华人社区多年，具有丰富经验，了解你的需要，全程陪同指引，以真挚温情服务受到客户的信任及赞赏。选择我们的服务等于选择明智、完美的承诺！",
   "henry":"徐培康<br>Henry Chui",
   "venus":"刘雄鹰<br>Venus Liu",
   "about":"关于我们",
   "lang":"精通国·粤·英",
   "about-title":"专业一站式服务",
-  "history01":"Arbor公司自1947年起提供墓地，殡葬及火化等专业服务。它是加拿大最大的墓园，殡葬公司。为本地成千上万的家庭提供一站式服务。业务遍布各省，拥有超过90间殡仪馆， 40个环境清幽的墓园及20所火葬场。",
+  "history01":"Arbor公司自1947年起提供殡葬及火化等专业服务。它是加拿大最大殡葬公司。为本地成千上万的家庭提供一站式服务。业务遍布各省，拥有超过90间殡仪馆， 40个环境清幽的墓园及20所火葬场。",
   "history02":"Arbor致力于提供全方面贴心服务，协助有需要的家庭妥善安排一系列事务，在这段哀伤忙乱的时刻伴你同行，为逝者妥善安排最后一程。",
   "contact":"联系我们",
   "ser":"我们的服务",
@@ -95,9 +95,9 @@
   "slogan":"專業一站式服務<br>令您及家人安枕無憂",
   "his":"公司歷史",
   "contact":"聯絡我們",
-  "intro":"安省持牌墓園及預置殯葬顧問",
-  "intro01":"我們公司的墓園致力於提供一個寧靜而得以永久安息之地。讓生命的消逝不是終點，使家屬親友們彼此對先人的思念得以慰藉，家庭文化和傳統得以傳承。",
-  "intro02":"預先購買墓地和葬禮需要深思熟慮的決定，因此在你需要的時候，我們樂於為你提供詳盡諮詢，專業真誠的服務與加拿大多元文化相結合，讓你做出最合適的安排，毫無後顧之憂。一站式服務包括墓地，骨灰位，葬禮以及火化的各類安排。",
+  "intro":"安省持牌殯葬顧問",
+  "intro01":"我們公司緻力於爲每一個家庭提供專業的殯儀服務，幫助您在告別親人的時刻感受到溫暖與慰藉。生命的消逝不是終點，而是對逝者美好回憶的延續。我們希望通過細緻入微的服務，讓家屬親友的思唸得以安放，家庭的文化與傳統得以傳承。",
+  "intro02":"在您需要的時候，我們樂於提供詳儘的諮詢與支持，以專業、真誠的態度爲您量身定製最合適的告別儀式。我們的服務尊重加拿大的多元文化背景，確保每一個細節都符合您的期望與需求。",
   "intro03":"我們服務華人社區多年，具有豐富經驗，了解你的需要，全程陪同指引，以真摯溫情服務受到客戶的信任及讚賞。選擇我們的服務等於選擇明智、完美的承諾！",
   "henry":"徐培康<br>Henry Chui",
   "venus":"劉雄鷹<br>Venus Liu",
@@ -282,7 +282,7 @@
           </b-col>
         </b-row>
         <b-row>
-          <b-col cols="12" md="3" sm="12" data-aos="fade-up">
+          <!-- <b-col cols="12" md="3" sm="12" data-aos="fade-up">
             <div class="service-img ser-1">
               <h3>{{ $t("ser01") }}</h3>
             </div>
@@ -296,13 +296,13 @@
             <div class="service-img ser-3">
               <h3>{{ $t("ser03") }}</h3>
             </div>
-          </b-col>
-          <b-col cols="12" md="3" sm="12" data-aos="fade-up">
+          </b-col> -->
+           <b-col cols="12" md="3" sm="12" data-aos="fade-up">
             <div class="service-img ser-4">
               <h3>{{ $t("ser05") }}</h3>
             </div>
           </b-col>
-          <b-col cols="12" md="3" sm="12" data-aos="fade-up">
+          <!--<b-col cols="12" md="3" sm="12" data-aos="fade-up">
             <div class="service-img ser-5">
               <h3>{{ $t("ser06") }}</h3>
             </div>
@@ -311,7 +311,7 @@
             <div class="service-img ser-6">
               <h3>{{ $t("ser07") }}</h3>
             </div>
-          </b-col>
+          </b-col> -->
           <!-- <b-col cols="12" md="4" sm="12" data-aos="fade-up" data-aos-delay="700">
             <div class="service-img ser-5">
               <h3>{{$t('ser05')}}</h3>
@@ -357,7 +357,7 @@
         </b-row>
       </b-container>
     </section>
-    <section id="gallery-sec">
+    <!-- <section id="gallery-sec">
       <b-container>
         <h2 style="text-align:center">{{ $t("gallery-title") }}</h2>
         <hr />
@@ -368,12 +368,12 @@
                 <img :src="img.url" alt="" />
               </a>
             </figure>
-            <!-- <b-img fluid :src="img.url"> </b-img> -->
+
           </b-col>
         </b-row>
       </b-container>
-    </section>
-    <section id="servicearea">
+    </section> -->
+    <!-- <section id="servicearea">
       <b-container>
         <b-row>
           <b-col>
@@ -397,34 +397,10 @@
             <nuxt-link to="/">8911 Woodbine AveMarkham, ON L3R 5G1</nuxt-link>
               <a href="https://www.google.com/maps/place/Chapel+Ridge+Funeral+Home+%26+Cremation+Centre/@43.8598287,-79.3624629,17z/data=!4m15!1m8!3m7!1s0x89d4d4ddda021a1f:0xe0d1f35a36810baf!2s8911+Woodbine+Ave,+Markham,+ON+L3R+5G1!3b1!8m2!3d43.8598287!4d-79.359888!16s%2Fg%2F11c14ft682!3m5!1s0x89d4d4ddd289bda1:0xfe38c6e3da1eefad!8m2!3d43.8598007!4d-79.3600617!16s%2Fg%2F1tdr95b7?entry=ttu" target="_blank" class="direction-btn">Direction</a>
           </b-col>
-          <!-- <b-col cols="12" md="3" sm="12">
-            <h3 v-html="$t('area-01')"></h3>
-            <nuxt-link to="/">33 Memory Gardens Ln, <br>North York, ON</nuxt-link>
-            <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
-            <div class='embed-container'><iframe src='https://www.youtube.com/embed/rps3EBKjCCo' frameborder='0'
-                allowfullscreen muted autoplay></iframe></div>
-          </b-col>
-          <b-col cols="12" md="3" sm="12">
-            <h3 v-html="$t('area-02')"></h3>
-            <nuxt-link to="/">12492 Woodbine Ave, <br>Gormley, ON</nuxt-link>
-            <nuxt-link to="/" class="direction-btn">Direction</nuxt-link>
-
-            <div class='embed-container'><iframe src='https://www.youtube.com/embed/V4GdNb6WAko' frameborder='0'
-                allowfullscreen muted></iframe></div>
-          </b-col> -->
-          <!-- <b-col cols="12" md="3" sm="12">
-            <h3 v-html="$t('area-03')"></h3>
-             <a href="https://goo.gl/maps/3ooNKtXxmxzQXLyL9" target="_blank"> 541 Taunton Rd W, <br>Ajax, ON</a>
-            <a href="https://goo.gl/maps/3ooNKtXxmxzQXLyL9" target="_blank" class="direction-btn">Direction</a>
-          </b-col>
-          <b-col cols="12" md="3" sm="12">
-            <h3 v-html="$t('area-04')"></h3>
-            <a href="https://goo.gl/maps/WkaQmQUnUZb4gDSj7" target="_blank">3164 Ninth Line,<br> Oakville, ON</a>
-            <a href="https://goo.gl/maps/WkaQmQUnUZb4gDSj7" target="_blank" class="direction-btn">Direction</a>
-          </b-col> -->
+   
         </b-row>
       </b-container>
-    </section>
+    </section> -->
     <section id="fengshui">
       <b-container>
         <h1>{{ $t("fengshui-title1") }}</h1>

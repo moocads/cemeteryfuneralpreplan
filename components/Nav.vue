@@ -9,9 +9,9 @@
       "contact":"Contact Us"
   },
   "zh":{
-    "name":"多伦多预置墓园及殡葬服务",
+    "name":"多伦多殡葬服务",
     "home":"首页",
-    "price-list":"预置墓园 & 殡葬服务价目表",
+    "price-list":"殡葬服务价目表",
     "guide":"安省后事处理指南 BAO Consumer Information",
     "about":"关于我们",
     "cf":"我们的服务",
@@ -20,9 +20,9 @@
     "contact":"联系我们"
       },
   "tc":{
-    "name":"多倫多預置墓園及殯葬服務",
+    "name":"多倫多殯葬服務",
     "home":"首頁",
-    "price-list":"預置墓園 & 殯葬服務價目表",
+    "price-list":"殯葬服務價目表",
     "guide":"安省後事處理指南 BAO Consumer Information",
     "about":"關於我們",
     "cf":"我們的服務",
