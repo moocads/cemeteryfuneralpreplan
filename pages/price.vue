@@ -67,7 +67,7 @@
           <b-row>
             <b-col class="price-item">
               <a
-                href="/img/docs/Chapel-Ridge-Price-List-March-15-2025_Update-min.pdf"
+                href="/img/docs/ChapelRidge-PriceList-01October2025.pdf"
                 target="_blank"
               >
                 <img
