@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat /Users/mikema/Website_Projects/cemeteryfuneralpreplan-next/pages/index.vue)",
+      "Read(//Users/mikema/Website_Projects/cemeteryfuneralpreplan-next/components/**)",
+      "Bash(cat /Users/mikema/Website_Projects/cemeteryfuneralpreplan-next/assets/css/main.scss && echo \"===\" && cat /Users/mikema/Website_Projects/cemeteryfuneralpreplan-next/pages/price.vue)",
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
