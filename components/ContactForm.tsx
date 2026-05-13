@@ -6,10 +6,12 @@ import { useLang } from '@/contexts/LangContext'
 export default function ContactForm() {
   const { t } = useLang()
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
+  const [errorDetail, setErrorDetail] = useState<string | null>(null)
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
     setStatus('loading')
+    setErrorDetail(null)
     const form = e.currentTarget
     const data = {
       firstName: (form.elements.namedItem('firstName') as HTMLInputElement).value,
@@ -29,9 +31,28 @@ export default function ContactForm() {
         setStatus('success')
         form.reset()
       } else {
+        let detail: string | null = null
+        if (process.env.NODE_ENV === 'development') {
+          try {
+            const j = (await res.json()) as {
+              missingEnv?: string[]
+              hint?: string
+              detail?: string
+            }
+            if (j.missingEnv?.length) {
+              detail = `缺少环境变量: ${j.missingEnv.join(', ')}。${j.hint ?? ''}`
+            } else if (j.detail) {
+              detail = j.detail
+            }
+          } catch {
+            /* ignore */
+          }
+        }
+        setErrorDetail(detail)
         setStatus('error')
       }
     } catch {
+      setErrorDetail(null)
       setStatus('error')
     }
   }
@@ -131,7 +152,12 @@ export default function ContactForm() {
           </div>
 
           {status === 'error' && (
-            <p className="text-red-500 text-sm">{t('form.error')}</p>
+            <div className="text-red-500 text-sm space-y-1">
+              <p>{t('form.error')}</p>
+              {errorDetail && (
+                <p className="font-mono text-xs text-red-600 break-words whitespace-pre-wrap">{errorDetail}</p>
+              )}
+            </div>
           )}
 
           <button

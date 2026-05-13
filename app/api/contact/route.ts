@@ -1,6 +1,8 @@
 import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses'
 import { NextResponse } from 'next/server'
 
+const isDev = process.env.NODE_ENV === 'development'
+
 export async function POST(req: Request) {
   const accessKeyId = process.env.AWS_ACCESS_KEY_ID
   const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY
@@ -9,8 +11,22 @@ export async function POST(req: Request) {
   const region = process.env.AWS_REGION ?? 'us-east-1'
 
   if (!accessKeyId || !secretAccessKey || !toEmail || !fromEmail) {
-    console.error('Contact API: missing AWS or SES environment variables')
-    return NextResponse.json({ error: 'Server configuration error' }, { status: 500 })
+    const missingEnv: string[] = []
+    if (!accessKeyId) missingEnv.push('AWS_ACCESS_KEY_ID')
+    if (!secretAccessKey) missingEnv.push('AWS_SECRET_ACCESS_KEY')
+    if (!toEmail) missingEnv.push('SES_TO_EMAIL')
+    if (!fromEmail) missingEnv.push('SES_FROM_EMAIL')
+    console.error('Contact API: missing environment variables:', missingEnv.join(', '))
+    return NextResponse.json(
+      isDev
+        ? {
+            error: 'Server configuration error',
+            missingEnv,
+            hint: 'Copy .env.local.example to .env.local and fill in real values, then restart `npm run dev`.',
+          }
+        : { error: 'Server configuration error' },
+      { status: 500 }
+    )
   }
 
   const ses = new SESClient({
@@ -60,6 +76,10 @@ export async function POST(req: Request) {
     return NextResponse.json({ success: true })
   } catch (err) {
     console.error('SES error:', err)
-    return NextResponse.json({ error: 'Failed to send email' }, { status: 500 })
+    const detail = err instanceof Error ? err.message : String(err)
+    return NextResponse.json(
+      isDev ? { error: 'Failed to send email', detail } : { error: 'Failed to send email' },
+      { status: 500 }
+    )
   }
 }
