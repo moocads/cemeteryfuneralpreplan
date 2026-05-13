@@ -91,3 +91,4 @@ sw.*
 
 # Cursor / Claude (local only)
 .claude/
+.nuxt
