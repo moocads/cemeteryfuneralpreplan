@@ -1,15 +1,23 @@
 import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses'
 import { NextResponse } from 'next/server'
 
-const ses = new SESClient({
-  region: process.env.AWS_REGION ?? 'us-east-1',
-  credentials: {
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID!,
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY!,
-  },
-})
-
 export async function POST(req: Request) {
+  const accessKeyId = process.env.AWS_ACCESS_KEY_ID
+  const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY
+  const toEmail = process.env.SES_TO_EMAIL
+  const fromEmail = process.env.SES_FROM_EMAIL
+  const region = process.env.AWS_REGION ?? 'us-east-1'
+
+  if (!accessKeyId || !secretAccessKey || !toEmail || !fromEmail) {
+    console.error('Contact API: missing AWS or SES environment variables')
+    return NextResponse.json({ error: 'Server configuration error' }, { status: 500 })
+  }
+
+  const ses = new SESClient({
+    region,
+    credentials: { accessKeyId, secretAccessKey },
+  })
+
   let body: Record<string, string>
   try {
     body = await req.json()
@@ -21,12 +29,6 @@ export async function POST(req: Request) {
 
   if (!firstName || !email || !phone) {
     return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
-  }
-
-  const toEmail = process.env.SES_TO_EMAIL
-  const fromEmail = process.env.SES_FROM_EMAIL
-  if (!toEmail || !fromEmail) {
-    return NextResponse.json({ error: 'Server configuration error' }, { status: 500 })
   }
 
   const htmlBody = `

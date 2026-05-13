@@ -25,7 +25,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               gtag('config', 'UA-197873382-1');
               function gtag_report_conversion(url) {
                 var callback = function () {
-                  if (typeof(url) != 'undefined') { window.location = url; }
+                  if (typeof url !== 'undefined' && url && /^https?:/i.test(String(url))) {
+                    window.location = url;
+                  }
                 };
                 gtag('event', 'conversion', {
                   'send_to': 'AW-XXXXXXXXX/XXXXXXXXXXXXX',
