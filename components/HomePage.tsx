@@ -33,7 +33,7 @@ export default function HomePage() {
                 </h3>
                 <a
                   href="tel:+14167223453"
-                  className="text-lightgrey py-2.5 text-lg block text-center"
+                  className="text-lightgrey py-1 text-lg block text-center"
                   onClick={() => {
                     if (typeof window !== 'undefined' && (window as any).gtag_report_conversion) {
                       ;(window as any).gtag_report_conversion('tel:416-722-3453')
@@ -41,6 +41,9 @@ export default function HomePage() {
                   }}
                 >
                   416-722-3453
+                </a>
+                <a href="mailto:henrychuichapelridge@gmail.com" className="text-lightgrey py-2.5 text-lg block text-center">
+                  henrychuichapelridge@gmail.com
                 </a>
                 <p className="text-lightgrey text-center mb-2">{t('about.lang')}</p>
                 <div className="flex justify-center">
