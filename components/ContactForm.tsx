@@ -41,8 +41,8 @@ export default function ContactForm() {
             }
             if (j.missingEnv?.length) {
               detail = `缺少环境变量: ${j.missingEnv.join(', ')}。${j.hint ?? ''}`
-            } else if (j.detail) {
-              detail = j.detail
+            } else if (j.detail || j.hint) {
+              detail = [j.detail, j.hint].filter(Boolean).join('\n')
             }
           } catch {
             /* ignore */

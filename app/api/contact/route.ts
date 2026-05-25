@@ -1,38 +1,30 @@
-import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses'
+import sgMail from '@sendgrid/mail'
 import { NextResponse } from 'next/server'
 
 const isDev = process.env.NODE_ENV === 'development'
 
 export async function POST(req: Request) {
-  const accessKeyId = process.env.AWS_ACCESS_KEY_ID
-  const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY
-  const toEmail = process.env.SES_TO_EMAIL
-  const fromEmail = process.env.SES_FROM_EMAIL
-  const region = process.env.AWS_REGION ?? 'us-east-1'
+  const apiKey = process.env.SENDGRID_API_KEY?.trim()
+  const toEmail = process.env.CONTACT_TO_EMAIL?.trim()
+  const fromEmail = process.env.SENDGRID_FROM_EMAIL?.trim()
 
-  if (!accessKeyId || !secretAccessKey || !toEmail || !fromEmail) {
+  if (!apiKey || !toEmail || !fromEmail) {
     const missingEnv: string[] = []
-    if (!accessKeyId) missingEnv.push('AWS_ACCESS_KEY_ID')
-    if (!secretAccessKey) missingEnv.push('AWS_SECRET_ACCESS_KEY')
-    if (!toEmail) missingEnv.push('SES_TO_EMAIL')
-    if (!fromEmail) missingEnv.push('SES_FROM_EMAIL')
-    console.error('Contact API: missing environment variables:', missingEnv.join(', '))
+    if (!apiKey) missingEnv.push('SENDGRID_API_KEY')
+    if (!fromEmail) missingEnv.push('SENDGRID_FROM_EMAIL')
+    if (!toEmail) missingEnv.push('CONTACT_TO_EMAIL')
+    console.error('Contact API: missing:', missingEnv.join(', '))
     return NextResponse.json(
       isDev
         ? {
             error: 'Server configuration error',
             missingEnv,
-            hint: 'Copy .env.local.example to .env.local and fill in real values, then restart `npm run dev`.',
+            hint: '在 .env.local / Vercel 配置 SENDGRID_API_KEY、SENDGRID_FROM_EMAIL（SendGrid 已验证发件人）、CONTACT_TO_EMAIL（收件人）。',
           }
         : { error: 'Server configuration error' },
       { status: 500 }
     )
   }
-
-  const ses = new SESClient({
-    region,
-    credentials: { accessKeyId, secretAccessKey },
-  })
 
   let body: Record<string, string>
   try {
@@ -47,6 +39,8 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
   }
 
+  const subject = 'New Message from Website'
+  const textBody = `Name: ${firstName} ${lastName ?? ''}\nEmail: ${email}\nPhone: ${phone}\nService: ${service ?? 'N/A'}\nMessage: ${message ?? 'N/A'}`
   const htmlBody = `
     <h2>New Contact Form Submission</h2>
     <p><strong>Name:</strong> ${firstName} ${lastName ?? ''}</p>
@@ -56,29 +50,34 @@ export async function POST(req: Request) {
     <p><strong>Message:</strong><br/>${message ? message.replace(/\n/g, '<br/>') : 'N/A'}</p>
   `
 
+  sgMail.setApiKey(apiKey)
+
   try {
-    await ses.send(
-      new SendEmailCommand({
-        Source: fromEmail,
-        Destination: { ToAddresses: [toEmail] },
-        ReplyToAddresses: [email],
-        Message: {
-          Subject: { Data: `[Contact Form] ${firstName} ${lastName ?? ''} - ${phone}` },
-          Body: {
-            Html: { Data: htmlBody },
-            Text: {
-              Data: `Name: ${firstName} ${lastName ?? ''}\nEmail: ${email}\nPhone: ${phone}\nService: ${service ?? 'N/A'}\nMessage: ${message ?? 'N/A'}`,
-            },
-          },
-        },
-      })
-    )
+    await sgMail.send({
+      to: toEmail,
+      from: fromEmail,
+      replyTo: email,
+      subject,
+      text: textBody,
+      html: htmlBody,
+    })
     return NextResponse.json({ success: true })
   } catch (err) {
-    console.error('SES error:', err)
-    const detail = err instanceof Error ? err.message : String(err)
+    const detail =
+      err && typeof err === 'object' && 'response' in err
+        ? JSON.stringify((err as { response?: { body?: unknown } }).response?.body ?? err)
+        : err instanceof Error
+          ? err.message
+          : String(err)
+    console.error('SendGrid error:', detail, err)
     return NextResponse.json(
-      isDev ? { error: 'Failed to send email', detail } : { error: 'Failed to send email' },
+      isDev
+        ? {
+            error: 'Failed to send email',
+            detail,
+            hint: '在 SendGrid 控制台验证发件人（Single Sender 或 Domain Authentication），并确认 SENDGRID_FROM_EMAIL 与之一致。',
+          }
+        : { error: 'Failed to send email' },
       { status: 500 }
     )
   }
