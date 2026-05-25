@@ -15,13 +15,15 @@ export async function POST(req: Request) {
     if (!toEmail) missingEnv.push('CONTACT_TO_EMAIL')
     console.error('Contact API: missing:', missingEnv.join(', '))
     return NextResponse.json(
-      isDev
-        ? {
-            error: 'Server configuration error',
-            missingEnv,
-            hint: '在 .env.local / Vercel 配置 SENDGRID_API_KEY、SENDGRID_FROM_EMAIL（SendGrid 已验证发件人）、CONTACT_TO_EMAIL（收件人）。',
-          }
-        : { error: 'Server configuration error' },
+      {
+        error: 'Server configuration error',
+        missingEnv,
+        ...(isDev
+          ? {
+              hint: '在 .env.local / Vercel 配置 SENDGRID_API_KEY、SENDGRID_FROM_EMAIL（SendGrid 已验证发件人）、CONTACT_TO_EMAIL（收件人），保存后 Redeploy。',
+            }
+          : {}),
+      },
       { status: 500 }
     )
   }

@@ -32,21 +32,19 @@ export default function ContactForm() {
         form.reset()
       } else {
         let detail: string | null = null
-        if (process.env.NODE_ENV === 'development') {
-          try {
-            const j = (await res.json()) as {
-              missingEnv?: string[]
-              hint?: string
-              detail?: string
-            }
-            if (j.missingEnv?.length) {
-              detail = `缺少环境变量: ${j.missingEnv.join(', ')}。${j.hint ?? ''}`
-            } else if (j.detail || j.hint) {
-              detail = [j.detail, j.hint].filter(Boolean).join('\n')
-            }
-          } catch {
-            /* ignore */
+        try {
+          const j = (await res.json()) as {
+            missingEnv?: string[]
+            hint?: string
+            detail?: string
           }
+          if (j.missingEnv?.length) {
+            detail = `缺少环境变量: ${j.missingEnv.join(', ')}。${j.hint ?? '请在 Vercel → Settings → Environment Variables 配置后 Redeploy。'}`
+          } else if (process.env.NODE_ENV === 'development' && (j.detail || j.hint)) {
+            detail = [j.detail, j.hint].filter(Boolean).join('\n')
+          }
+        } catch {
+          /* ignore */
         }
         setErrorDetail(detail)
         setStatus('error')
