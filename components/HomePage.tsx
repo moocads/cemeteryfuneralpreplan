@@ -43,7 +43,7 @@ export default function HomePage() {
                   416-722-3453
                 </a>
                 <a href="mailto:henrychuichapelridge@gmail.com" className="text-lightgrey py-2.5 text-lg block text-center">
-                  henrychuichapelridge@gmail.com
+                  email：henrychuichapelridge@gmail.com
                 </a>
                 <p className="text-lightgrey text-center mb-2">{t('about.lang')}</p>
                 <div className="flex justify-center">
